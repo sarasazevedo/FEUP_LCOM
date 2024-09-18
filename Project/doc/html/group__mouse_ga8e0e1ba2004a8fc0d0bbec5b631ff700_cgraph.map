@@ -1,0 +1,9 @@
+<map id="mouse_write_byte" name="mouse_write_byte">
+<area shape="rect" id="Node000001" title="Sends Mouse Command Byte to the Mouse." alt="" coords="5,31,132,57"/>
+<area shape="rect" id="Node000002" href="$group___k_b_c.html#ga4bbd3043c99b06f25e525951cfde5a20" title="Writes to KBC&#39;s input buffers (port 0x64 or 0x60) when not full." alt="" coords="180,5,291,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,32,164,27,165,32,132,37"/>
+<area shape="rect" id="Node000004" href="$group___k_b_c.html#ga3c164b15c2dd93b4ffc129202f39ed07" title="Reads the output buffer register." alt="" coords="195,56,276,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,51,180,58,180,64,131,56"/>
+<area shape="rect" id="Node000003" href="$group___k_b_c.html#gabaa6e25516d3e426a0b8fd1bb4bc7ed5" title="Reads KBC&#39;s STAT_REG to get the status byte." alt="" coords="339,5,449,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="291,16,323,16,323,21,291,21"/>
+</map>

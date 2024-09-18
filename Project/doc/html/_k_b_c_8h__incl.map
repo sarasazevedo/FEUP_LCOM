@@ -1,0 +1,12 @@
+<map id="KBC.h" name="KBC.h">
+<area shape="rect" id="Node000001" title="Functions for using the i8042 KBC." alt="" coords="76,5,136,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="74,155,151,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,33,50,46,24,63,10,84,8,94,12,105,33,129,61,147,58,151,30,133,8,108,3,95,5,82,21,60,47,42,75,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,80,96,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="100,34,78,68,73,66,96,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="120,80,185,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,31,139,66,134,68,112,34"/>
+<area shape="rect" id="Node000005" href="$i8042_8h.html" title="Constants for programming the i8042 KBC Controller." alt="" coords="209,80,272,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="131,30,205,70,202,75,128,35"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="220,110,149,149,147,144,217,105"/>
+</map>

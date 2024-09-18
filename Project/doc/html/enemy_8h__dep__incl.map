@@ -1,0 +1,24 @@
+<map id="enemy.h" name="enemy.h">
+<area shape="rect" id="Node000001" title="Module for handling enemies in the game." alt="" coords="22,5,93,32"/>
+<area shape="rect" id="Node000002" href="$enemy_fire_8h.html" title="Module for handling enemy fire in the game." alt="" coords="215,229,308,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,28,157,47,181,61,202,78,229,116,247,159,258,199,263,229,257,230,252,200,242,161,224,119,198,82,178,65,155,51,107,33"/>
+<area shape="rect" id="Node000003" href="$game_8h.html" title="Module for handling game loop." alt="" coords="111,304,175,331"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="38,46,19,81,11,108,8,130,16,181,28,221,53,254,84,281,117,301,114,306,81,286,49,258,24,223,11,182,3,130,6,107,14,79,34,43"/>
+<area shape="rect" id="Node000005" href="$fire_8h.html" title="Module for handling player fire shots in the game." alt="" coords="39,155,89,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="61,47,66,154,61,154,56,48"/>
+<area shape="rect" id="Node000006" href="$menu_8h.html" title="Module for handling game menus and time display." alt="" coords="76,229,140,256"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="46,47,34,76,24,110,22,146,30,180,40,195,53,207,81,227,78,231,49,211,36,198,26,182,16,146,19,109,29,74,41,45"/>
+<area shape="rect" id="Node000007" href="$player_ship_8h.html" title="Module for handling player spaceship in the game." alt="" coords="95,80,188,107"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="85,40,129,78,125,82,82,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,266,158,306,155,301,219,262"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="182,294,246,254,249,259,185,298"/>
+<area shape="rect" id="Node000004" href="$proj_8c.html" title="Project main loop." alt="" coords="116,379,169,405"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="145,346,145,378,140,378,140,346"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="61,197,59,226,66,255,76,269,89,282,117,301,114,306,85,286,72,273,62,257,54,227,55,197"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="82,193,103,228,98,230,77,196"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="123,269,139,302,134,305,118,271"/>
+<area shape="poly" id="edge12_Node000007_Node000002" title=" " alt="" coords="166,117,198,153,255,227,250,230,194,156,162,120"/>
+<area shape="poly" id="edge14_Node000007_Node000003" title=" " alt="" coords="148,122,154,183,155,256,148,304,143,303,149,256,149,184,143,122"/>
+<area shape="poly" id="edge13_Node000007_Node000005" title=" " alt="" coords="119,119,79,156,76,152,115,116"/>
+<area shape="poly" id="edge15_Node000007_Node000006" title=" " alt="" coords="138,122,113,229,108,228,133,121"/>
+</map>

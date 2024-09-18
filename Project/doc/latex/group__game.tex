@@ -1,0 +1,135 @@
+\doxysection{Game}
+\hypertarget{group__game}{}\label{group__game}\index{Game@{Game}}
+
+
+game related functions  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_level}{Level}}
+\begin{DoxyCompactList}\small\item\em Struct representing a game level. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_game}{Game}}
+\begin{DoxyCompactList}\small\item\em Struct representing the game state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group__game_gaaf29bbe309504beb4cfec2481eacee62}{game\+State}} \{ \newline
+\mbox{\hyperlink{group__game_ggaaf29bbe309504beb4cfec2481eacee62a4308178099d62c4081c711b763591792}{MAINMENU}}
+, \mbox{\hyperlink{group__game_ggaaf29bbe309504beb4cfec2481eacee62a5a1be844bc0efd8df140b5638ce005a7}{INSTRUCTIONSMENU}}
+, \mbox{\hyperlink{group__game_ggaaf29bbe309504beb4cfec2481eacee62a3d1534bf5b4355007b4d4988b9ea4fe5}{LEADERBOARDMENU}}
+, \mbox{\hyperlink{group__game_ggaaf29bbe309504beb4cfec2481eacee62af095245f5cebc27a97a124345269fed8}{PLAYING}}
+, \newline
+\mbox{\hyperlink{group__game_ggaaf29bbe309504beb4cfec2481eacee62afb08fc29a14683e6d542b550adb9953a}{ENDSCREEN}}
+, \mbox{\hyperlink{group__game_ggaaf29bbe309504beb4cfec2481eacee62ab9f9543350f6bd6191e52158daa88884}{EXITED}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum type for the game states. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{group__game_ga9e876a9d269db18b0fde72614c20a7e1}\label{group__game_ga9e876a9d269db18b0fde72614c20a7e1} 
+void {\bfseries handle\+\_\+pressed\+\_\+key} ()
+\begin{DoxyCompactList}\small\item\em Handles key press events. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_ga1b73f71c08687a3e486dfad15bfe9704}\label{group__game_ga1b73f71c08687a3e486dfad15bfe9704} 
+void {\bfseries handle\+\_\+mouse\+\_\+move} ()
+\begin{DoxyCompactList}\small\item\em Handles mouse movement events. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_ga713940bf12af0ecec5a6a7772536f54d}\label{group__game_ga713940bf12af0ecec5a6a7772536f54d} 
+void {\bfseries handle\+\_\+game\+\_\+loop} ()
+\begin{DoxyCompactList}\small\item\em Handles the game loop, which updates game state based on timer interrupts. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_ga1ac9703965178958ecd2dafa9d64cbaf}\label{group__game_ga1ac9703965178958ecd2dafa9d64cbaf} 
+void {\bfseries show\+\_\+current\+\_\+screen} ()
+\begin{DoxyCompactList}\small\item\em Displays the current screen based on the game state. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_gae3dd9dc237064f3aa980f920658f9a50}\label{group__game_gae3dd9dc237064f3aa980f920658f9a50} 
+void {\bfseries draw\+\_\+game\+\_\+screen} ()
+\begin{DoxyCompactList}\small\item\em Draws the game screen during gameplay. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_ga0a617f379b096afd111bdb81a8f237f7}\label{group__game_ga0a617f379b096afd111bdb81a8f237f7} 
+void {\bfseries draw\+\_\+game\+\_\+status} ()
+\begin{DoxyCompactList}\small\item\em Draws the game status including score, lives, and level. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_ga8e846fdc79393705f939c88ba9e9bb31}\label{group__game_ga8e846fdc79393705f939c88ba9e9bb31} 
+void {\bfseries draw\+\_\+end\+\_\+screen} ()
+\begin{DoxyCompactList}\small\item\em Draws the end screen when the game is over. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_ga6be2f294a4d060a7a6e445016a151100}\label{group__game_ga6be2f294a4d060a7a6e445016a151100} 
+void {\bfseries reset\+\_\+game} ()
+\begin{DoxyCompactList}\small\item\em Resets the game to its initial state. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__game_gacea49095e25a6d141e01cd956dd8ace5}{init\+\_\+level}} (int level\+Index)
+\begin{DoxyCompactList}\small\item\em Initializes a level based on the level index. \end{DoxyCompactList}\item 
+\Hypertarget{group__game_ga6f601bb2ce86080b74029196be067b07}\label{group__game_ga6f601bb2ce86080b74029196be067b07} 
+void {\bfseries spawn\+\_\+enemy} ()
+\begin{DoxyCompactList}\small\item\em Spawns an enemy at a random position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+game related functions 
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{group__game_gaaf29bbe309504beb4cfec2481eacee62}\label{group__game_gaaf29bbe309504beb4cfec2481eacee62} 
+\index{Game@{Game}!gameState@{gameState}}
+\index{gameState@{gameState}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{gameState}{gameState}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group__game_gaaf29bbe309504beb4cfec2481eacee62}{game\+State}}}
+
+
+
+Enum type for the game states. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MAINMENU@{MAINMENU}!Game@{Game}}\index{Game@{Game}!MAINMENU@{MAINMENU}}}\Hypertarget{group__game_ggaaf29bbe309504beb4cfec2481eacee62a4308178099d62c4081c711b763591792}\label{group__game_ggaaf29bbe309504beb4cfec2481eacee62a4308178099d62c4081c711b763591792} 
+MAINMENU&Main menu state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INSTRUCTIONSMENU@{INSTRUCTIONSMENU}!Game@{Game}}\index{Game@{Game}!INSTRUCTIONSMENU@{INSTRUCTIONSMENU}}}\Hypertarget{group__game_ggaaf29bbe309504beb4cfec2481eacee62a5a1be844bc0efd8df140b5638ce005a7}\label{group__game_ggaaf29bbe309504beb4cfec2481eacee62a5a1be844bc0efd8df140b5638ce005a7} 
+INSTRUCTIONSMENU&Leaderboard menu state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LEADERBOARDMENU@{LEADERBOARDMENU}!Game@{Game}}\index{Game@{Game}!LEADERBOARDMENU@{LEADERBOARDMENU}}}\Hypertarget{group__game_ggaaf29bbe309504beb4cfec2481eacee62a3d1534bf5b4355007b4d4988b9ea4fe5}\label{group__game_ggaaf29bbe309504beb4cfec2481eacee62a3d1534bf5b4355007b4d4988b9ea4fe5} 
+LEADERBOARDMENU&Leaderboard menu state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PLAYING@{PLAYING}!Game@{Game}}\index{Game@{Game}!PLAYING@{PLAYING}}}\Hypertarget{group__game_ggaaf29bbe309504beb4cfec2481eacee62af095245f5cebc27a97a124345269fed8}\label{group__game_ggaaf29bbe309504beb4cfec2481eacee62af095245f5cebc27a97a124345269fed8} 
+PLAYING&Playing state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ENDSCREEN@{ENDSCREEN}!Game@{Game}}\index{Game@{Game}!ENDSCREEN@{ENDSCREEN}}}\Hypertarget{group__game_ggaaf29bbe309504beb4cfec2481eacee62afb08fc29a14683e6d542b550adb9953a}\label{group__game_ggaaf29bbe309504beb4cfec2481eacee62afb08fc29a14683e6d542b550adb9953a} 
+ENDSCREEN&End screen state \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXITED@{EXITED}!Game@{Game}}\index{Game@{Game}!EXITED@{EXITED}}}\Hypertarget{group__game_ggaaf29bbe309504beb4cfec2481eacee62ab9f9543350f6bd6191e52158daa88884}\label{group__game_ggaaf29bbe309504beb4cfec2481eacee62ab9f9543350f6bd6191e52158daa88884} 
+EXITED&Exited state \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__game_gacea49095e25a6d141e01cd956dd8ace5}\label{group__game_gacea49095e25a6d141e01cd956dd8ace5} 
+\index{Game@{Game}!init\_level@{init\_level}}
+\index{init\_level@{init\_level}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{init\_level()}{init\_level()}}
+{\footnotesize\ttfamily void init\+\_\+level (\begin{DoxyParamCaption}\item[{int}]{level\+Index }\end{DoxyParamCaption})}
+
+
+
+Initializes a level based on the level index. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Index} & Index of the level to initialize. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__game_gacea49095e25a6d141e01cd956dd8ace5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__game_gacea49095e25a6d141e01cd956dd8ace5_icgraph}
+\end{center}
+\end{figure}

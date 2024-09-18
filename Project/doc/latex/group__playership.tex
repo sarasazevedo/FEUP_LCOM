@@ -1,0 +1,174 @@
+\doxysection{Player\+Ship}
+\hypertarget{group__playership}{}\label{group__playership}\index{PlayerShip@{PlayerShip}}
+
+
+\doxylink{struct_player_ship}{Player\+Ship} related functions.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_player_ship}{Player\+Ship}}
+\begin{DoxyCompactList}\small\item\em Struct representing the player spaceship. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__playership_gae2d4b1295b904f1d4bc5a2b464c95ed8}{create\+Player\+Ship}} (xpm\+\_\+map\+\_\+t sprite, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Creates a player spaceship object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga7cb287b4e30778d5409f42149b748ae3}{draw\+Player\+Ship}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship)
+\begin{DoxyCompactList}\small\item\em Draws the player spaceship on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga71183cdc81fd9f000bc13240d1f7652c}{make\+Space\+Ship\+Explosion}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship)
+\begin{DoxyCompactList}\small\item\em Creates a spaceship explosion effect. \end{DoxyCompactList}\item 
+\Hypertarget{group__playership_ga64b2336642e027984d01f3defaf843d0}\label{group__playership_ga64b2336642e027984d01f3defaf843d0} 
+void {\bfseries update\+Spaceship\+Explosions} ()
+\begin{DoxyCompactList}\small\item\em Updates the spaceship explosion effect. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga09da490e0b436b00fc596051bf1025be}{destroy\+Player\+Ship}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship)
+\begin{DoxyCompactList}\small\item\em Destroys the player spaceship and frees its memory space. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga23fef7f7a04159faea033c1595b2e220}{update\+Player\+Score}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}playership)
+\begin{DoxyCompactList}\small\item\em Updates the player\textquotesingle{}s score. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{struct_player_ship}{Player\+Ship} related functions. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__playership_gae2d4b1295b904f1d4bc5a2b464c95ed8}\label{group__playership_gae2d4b1295b904f1d4bc5a2b464c95ed8} 
+\index{PlayerShip@{PlayerShip}!createPlayerShip@{createPlayerShip}}
+\index{createPlayerShip@{createPlayerShip}!PlayerShip@{PlayerShip}}
+\doxysubsubsection{\texorpdfstring{createPlayerShip()}{createPlayerShip()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*} create\+Player\+Ship (\begin{DoxyParamCaption}\item[{xpm\+\_\+map\+\_\+t}]{sprite,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Creates a player spaceship object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & The sprite of the spaceship. \\
+\hline
+{\em x} & The initial x-\/coordinate of the spaceship. \\
+\hline
+{\em y} & The initial y-\/coordinate of the spaceship. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the created player spaceship. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__playership_gae2d4b1295b904f1d4bc5a2b464c95ed8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__playership_gae2d4b1295b904f1d4bc5a2b464c95ed8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__playership_ga09da490e0b436b00fc596051bf1025be}\label{group__playership_ga09da490e0b436b00fc596051bf1025be} 
+\index{PlayerShip@{PlayerShip}!destroyPlayerShip@{destroyPlayerShip}}
+\index{destroyPlayerShip@{destroyPlayerShip}!PlayerShip@{PlayerShip}}
+\doxysubsubsection{\texorpdfstring{destroyPlayerShip()}{destroyPlayerShip()}}
+{\footnotesize\ttfamily void destroy\+Player\+Ship (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}}]{player\+Ship }\end{DoxyParamCaption})}
+
+
+
+Destroys the player spaceship and frees its memory space. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Ship} & A pointer to the player spaceship object. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{group__playership_ga09da490e0b436b00fc596051bf1025be_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__playership_ga09da490e0b436b00fc596051bf1025be_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__playership_ga7cb287b4e30778d5409f42149b748ae3}\label{group__playership_ga7cb287b4e30778d5409f42149b748ae3} 
+\index{PlayerShip@{PlayerShip}!drawPlayerShip@{drawPlayerShip}}
+\index{drawPlayerShip@{drawPlayerShip}!PlayerShip@{PlayerShip}}
+\doxysubsubsection{\texorpdfstring{drawPlayerShip()}{drawPlayerShip()}}
+{\footnotesize\ttfamily void draw\+Player\+Ship (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}}]{player\+Ship }\end{DoxyParamCaption})}
+
+
+
+Draws the player spaceship on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Ship} & A pointer to the player spaceship. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__playership_ga7cb287b4e30778d5409f42149b748ae3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__playership_ga7cb287b4e30778d5409f42149b748ae3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__playership_ga71183cdc81fd9f000bc13240d1f7652c}\label{group__playership_ga71183cdc81fd9f000bc13240d1f7652c} 
+\index{PlayerShip@{PlayerShip}!makeSpaceShipExplosion@{makeSpaceShipExplosion}}
+\index{makeSpaceShipExplosion@{makeSpaceShipExplosion}!PlayerShip@{PlayerShip}}
+\doxysubsubsection{\texorpdfstring{makeSpaceShipExplosion()}{makeSpaceShipExplosion()}}
+{\footnotesize\ttfamily void make\+Space\+Ship\+Explosion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}}]{player\+Ship }\end{DoxyParamCaption})}
+
+
+
+Creates a spaceship explosion effect. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Ship} & A pointer to the player spaceship. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__playership_ga71183cdc81fd9f000bc13240d1f7652c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__playership_ga23fef7f7a04159faea033c1595b2e220}\label{group__playership_ga23fef7f7a04159faea033c1595b2e220} 
+\index{PlayerShip@{PlayerShip}!updatePlayerScore@{updatePlayerScore}}
+\index{updatePlayerScore@{updatePlayerScore}!PlayerShip@{PlayerShip}}
+\doxysubsubsection{\texorpdfstring{updatePlayerScore()}{updatePlayerScore()}}
+{\footnotesize\ttfamily void update\+Player\+Score (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}}]{playership }\end{DoxyParamCaption})}
+
+
+
+Updates the player\textquotesingle{}s score. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em playership} & A pointer to the player spaceship. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__playership_ga23fef7f7a04159faea033c1595b2e220_icgraph}
+\end{center}
+\end{figure}

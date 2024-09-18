@@ -1,0 +1,158 @@
+\doxysection{Cursor}
+\hypertarget{group__cursor}{}\label{group__cursor}\index{Cursor@{Cursor}}
+
+
+\doxylink{struct_cursor}{Cursor} related functions.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_cursor}{Cursor}}
+\begin{DoxyCompactList}\small\item\em Structure representing a cursor in the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__cursor_ga962b65dff016ac07d7a2717635c65d29}{create\+Cursor}} (xpm\+\_\+map\+\_\+t sprite, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Creates a new cursor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__cursor_ga8284595468388b00a8af9c0392ddeac5}{draw\+Cursor}} (\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}cursor)
+\begin{DoxyCompactList}\small\item\em Draws the cursor on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__cursor_ga2c3cd97520ea04d170ada92b91f479c9}{update\+Cursor}} (\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}cursor, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Updates the position of the cursor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__cursor_gad510a9ebcbf765461cba72ab75b0e314}{destroy\+Cursor}} (\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}cursor)
+\begin{DoxyCompactList}\small\item\em Destroys the cursor and frees its memory space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{struct_cursor}{Cursor} related functions. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__cursor_ga962b65dff016ac07d7a2717635c65d29}\label{group__cursor_ga962b65dff016ac07d7a2717635c65d29} 
+\index{Cursor@{Cursor}!createCursor@{createCursor}}
+\index{createCursor@{createCursor}!Cursor@{Cursor}}
+\doxysubsubsection{\texorpdfstring{createCursor()}{createCursor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*} create\+Cursor (\begin{DoxyParamCaption}\item[{xpm\+\_\+map\+\_\+t}]{sprite,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Creates a new cursor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & XPM map of the sprite for the cursor. \\
+\hline
+{\em x} & Initial X-\/coordinate of the cursor. \\
+\hline
+{\em y} & Initial Y-\/coordinate of the cursor. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the created cursor. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__cursor_ga962b65dff016ac07d7a2717635c65d29_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__cursor_ga962b65dff016ac07d7a2717635c65d29_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__cursor_gad510a9ebcbf765461cba72ab75b0e314}\label{group__cursor_gad510a9ebcbf765461cba72ab75b0e314} 
+\index{Cursor@{Cursor}!destroyCursor@{destroyCursor}}
+\index{destroyCursor@{destroyCursor}!Cursor@{Cursor}}
+\doxysubsubsection{\texorpdfstring{destroyCursor()}{destroyCursor()}}
+{\footnotesize\ttfamily void destroy\+Cursor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}}]{cursor }\end{DoxyParamCaption})}
+
+
+
+Destroys the cursor and frees its memory space. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cursor} & Pointer to the cursor to be destroyed. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{group__cursor_gad510a9ebcbf765461cba72ab75b0e314_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__cursor_gad510a9ebcbf765461cba72ab75b0e314_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__cursor_ga8284595468388b00a8af9c0392ddeac5}\label{group__cursor_ga8284595468388b00a8af9c0392ddeac5} 
+\index{Cursor@{Cursor}!drawCursor@{drawCursor}}
+\index{drawCursor@{drawCursor}!Cursor@{Cursor}}
+\doxysubsubsection{\texorpdfstring{drawCursor()}{drawCursor()}}
+{\footnotesize\ttfamily void draw\+Cursor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}}]{cursor }\end{DoxyParamCaption})}
+
+
+
+Draws the cursor on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cursor} & Pointer to the cursor to be drawn. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{group__cursor_ga8284595468388b00a8af9c0392ddeac5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__cursor_ga8284595468388b00a8af9c0392ddeac5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__cursor_ga2c3cd97520ea04d170ada92b91f479c9}\label{group__cursor_ga2c3cd97520ea04d170ada92b91f479c9} 
+\index{Cursor@{Cursor}!updateCursor@{updateCursor}}
+\index{updateCursor@{updateCursor}!Cursor@{Cursor}}
+\doxysubsubsection{\texorpdfstring{updateCursor()}{updateCursor()}}
+{\footnotesize\ttfamily void update\+Cursor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}}]{cursor,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Updates the position of the cursor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cursor} & Pointer to the cursor to be updated. \\
+\hline
+{\em x} & New X-\/coordinate of the cursor. \\
+\hline
+{\em y} & New Y-\/coordinate of the cursor. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{group__cursor_ga2c3cd97520ea04d170ada92b91f479c9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__cursor_ga2c3cd97520ea04d170ada92b91f479c9_icgraph}
+\end{center}
+\end{figure}

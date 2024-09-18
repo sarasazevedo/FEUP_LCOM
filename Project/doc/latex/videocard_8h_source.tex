@@ -1,0 +1,88 @@
+\doxysection{videocard.\+h}
+\hypertarget{videocard_8h_source}{}\label{videocard_8h_source}\index{videocard.h@{videocard.h}}
+\mbox{\hyperlink{videocard_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ \_VIDEOCARD\_H\_}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ \_VIDEOCARD\_H\_}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <string.h>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_v_b_e_8h}{VBE.h}}"{}}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00025\ \textcolor{comment}{/*\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ Functions\ to\ set\ the\ videocards'\ graphic\ submode,\ initialize\ global\ variables\ about\ the\ chosen\ Graphics\ Mode\ and\ to\ deal\ with\ the\ frame\ buffers\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/*/}}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00034\ int\ (\mbox{\hyperlink{group__videocard_ga8ea2f75c033ea69f83b475c63dc64fe1}{set\_submode\_info}})(uint16\_t\ mode);}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00044\ int\ (\mbox{\hyperlink{group__videocard_gae34cb77246663b88e128a1039ab581ff}{map\_video\_memory}})(uint16\_t\ mode);}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00058\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group__videocard_gadb2f48cdad0cc89fa56dee3d8ec4a48b}{vbe\_vertical\_retrace}}(uint16\_t\ x,\ uint16\_t\ y);}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00064\ void\ (\mbox{\hyperlink{group__videocard_gad42c7cf5f54fed0714fcf1f6e5e35bee}{swap\_buffer}})();}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00070\ void(\mbox{\hyperlink{group__videocard_ga42d895551053a3252f7035a1dfae25b8}{destroy\_buffer}})();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00080\ int\ (\mbox{\hyperlink{group__videocard_ga4bee13c4e0e366ce99296add8b64bc45}{vg\_set\_graphics\_mode}})(uint16\_t\ mode);}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ \textcolor{comment}{/*\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ Getter\ Functions\ to\ use\ global\ variables\ outside\ videocard\ file\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ */}}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00093\ uint16\_t\ (\mbox{\hyperlink{group__videocard_ga8becb86f48f701c43e1c411f57f60c4d}{get\_hres}})();}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00100\ uint16\_t\ (\mbox{\hyperlink{group__videocard_gad5999dee7ae30ea14b13e2e2e5a92c88}{get\_vres}})();}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00107\ uint16\_t\ (\mbox{\hyperlink{group__videocard_ga00077be429cc88b44b6c735cae9b616b}{get\_bitsPerPixel}})();}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00109\ \textcolor{comment}{//Related\ to\ color\ components,\ transforming\ the\ values\ to\ int\ to\ use\ with\ bitwise\ operations}}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00115\ int\ (\mbox{\hyperlink{group__videocard_ga19d30cfc5884677ca1f2757cd394c0d7}{get\_redMaskSize}})();}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00121\ int\ (\mbox{\hyperlink{group__videocard_ga6f6e5c7351c414787339019c1e2e2a96}{get\_greenMaskSize}})();}
+\DoxyCodeLine{00122\ }
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00128\ int\ (\mbox{\hyperlink{group__videocard_ga3c5e17dab1e23d0030b484285b7b9136}{get\_blueMaskSize}})();}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00134\ int\ (\mbox{\hyperlink{group__videocard_ga1bb6d2d0077e2c1f9a8fe619acc52b54}{get\_redFieldPosition}})();}
+\DoxyCodeLine{00135\ }
+\DoxyCodeLine{00140\ int\ (\mbox{\hyperlink{group__videocard_ga71b9bd5069efea7642ac23f1ca8538b6}{get\_greenFieldPosition}})();}
+\DoxyCodeLine{00141\ }
+\DoxyCodeLine{00146\ int\ (\mbox{\hyperlink{group__videocard_ga880fe7fa627eb37498a24d95874d9c83}{get\_blueFieldPosition}})();}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00148\ }
+\DoxyCodeLine{00149\ }
+\DoxyCodeLine{00150\ }
+\DoxyCodeLine{00151\ \textcolor{comment}{/*\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ Helper\ Functions\ that\ perform\ calculations\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ */}}
+\DoxyCodeLine{00152\ }
+\DoxyCodeLine{00156\ void\ (\mbox{\hyperlink{group__videocard_ga02b02fec18f15b228cb9d3df76e7352a}{set\_bytesPerPixel}})();}
+\DoxyCodeLine{00157\ }
+\DoxyCodeLine{00161\ void\ (\mbox{\hyperlink{group__videocard_ga39b35042125c13a786a4e253a2e3e59e}{set\_frameBufferSize}})();}
+\DoxyCodeLine{00162\ }
+\DoxyCodeLine{00163\ }
+\DoxyCodeLine{00164\ }
+\DoxyCodeLine{00165\ \textcolor{comment}{/*\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ Helper\ Function\ to\ help\ paiting\ pixels\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ */}}
+\DoxyCodeLine{00166\ }
+\DoxyCodeLine{00176\ int\ (\mbox{\hyperlink{group__videocard_ga980ca443d7468fd7daeab10fce386ee9}{fill\_pixel}})(uint16\_t\ x,\ uint16\_t\ y,\ uint32\_t\ color);}
+\DoxyCodeLine{00177\ }
+\DoxyCodeLine{00184\ xpm\_image\_t\ \mbox{\hyperlink{group__videocard_ga76cb0f21a48aab0d29e4868081b3feab}{my\_load\_xpm}}(xpm\_map\_t\ xpm\_map);}
+\DoxyCodeLine{00185\ }
+\DoxyCodeLine{00189\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_\_VIDEOCARD\_H\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00190\ }
+
+\end{DoxyCode}

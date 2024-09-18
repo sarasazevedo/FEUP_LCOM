@@ -1,0 +1,188 @@
+\doxysection{Fire}
+\hypertarget{group__fire}{}\label{group__fire}\index{Fire@{Fire}}
+
+
+\doxylink{struct_fire}{Fire} related functions.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_fire}{Fire}}
+\begin{DoxyCompactList}\small\item\em Struc representing a player fire shot in the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__fire_gad31f7fe8def3820a6085238ba6e9510f}{create\+Fire}} (xpm\+\_\+map\+\_\+t sprite, uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t speed)
+\begin{DoxyCompactList}\small\item\em Creates a new player fire projectile. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__fire_ga4ef0a221e1124625708288a1df8e640d}{draw\+Fire}} (\mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*}fire)
+\begin{DoxyCompactList}\small\item\em Draws the player fire shot on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__fire_ga0244b5ab577824f3d432dbb3aef5c31b}{create\+Space\+Ship\+Fire}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship)
+\begin{DoxyCompactList}\small\item\em Creates player fire shots. \end{DoxyCompactList}\item 
+\Hypertarget{group__fire_ga24a30e9134f90179511f1f2c5252738a}\label{group__fire_ga24a30e9134f90179511f1f2c5252738a} 
+void {\bfseries move\+Fire} ()
+\begin{DoxyCompactList}\small\item\em Updates the player fire shots. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__fire_gaac56a6ccce7a035e3992958edba00601}{check\+Enemy\+Hit}} (\mbox{\hyperlink{struct_enemy}{Enemy}} \texorpdfstring{$\ast$}{*}enemy, \mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*}fire)
+\begin{DoxyCompactList}\small\item\em Checks if an enemy has been hit by the player fire shots. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__fire_gaf25e565dd11f422b22ff7f26ba322049}{destroy\+Fire}} (\mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*}fire)
+\begin{DoxyCompactList}\small\item\em Destroys the player fire shot and frees its memory space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{struct_fire}{Fire} related functions. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__fire_gaac56a6ccce7a035e3992958edba00601}\label{group__fire_gaac56a6ccce7a035e3992958edba00601} 
+\index{Fire@{Fire}!checkEnemyHit@{checkEnemyHit}}
+\index{checkEnemyHit@{checkEnemyHit}!Fire@{Fire}}
+\doxysubsubsection{\texorpdfstring{checkEnemyHit()}{checkEnemyHit()}}
+{\footnotesize\ttfamily int check\+Enemy\+Hit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_enemy}{Enemy}} \texorpdfstring{$\ast$}{*}}]{enemy,  }\item[{\mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*}}]{fire }\end{DoxyParamCaption})}
+
+
+
+Checks if an enemy has been hit by the player fire shots. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enemy} & Pointer to the enemy being checked for collision. \\
+\hline
+{\em fire} & Pointer to the player fire shot. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if enemy is hit, 0 otherwise. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{group__fire_gaac56a6ccce7a035e3992958edba00601_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__fire_gaac56a6ccce7a035e3992958edba00601_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__fire_gad31f7fe8def3820a6085238ba6e9510f}\label{group__fire_gad31f7fe8def3820a6085238ba6e9510f} 
+\index{Fire@{Fire}!createFire@{createFire}}
+\index{createFire@{createFire}!Fire@{Fire}}
+\doxysubsubsection{\texorpdfstring{createFire()}{createFire()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*} create\+Fire (\begin{DoxyParamCaption}\item[{xpm\+\_\+map\+\_\+t}]{sprite,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y,  }\item[{uint16\+\_\+t}]{speed }\end{DoxyParamCaption})}
+
+
+
+Creates a new player fire projectile. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sprite} & XPM map of the sprite for the player fire shot. \\
+\hline
+{\em x} & Initial X-\/coordinate of the player fire shot. \\
+\hline
+{\em y} & Initial Y-\/coordinate of the player fire shot. \\
+\hline
+{\em speed} & Speed of the player fire shot. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the created player fire shot. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__fire_gad31f7fe8def3820a6085238ba6e9510f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__fire_gad31f7fe8def3820a6085238ba6e9510f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__fire_ga0244b5ab577824f3d432dbb3aef5c31b}\label{group__fire_ga0244b5ab577824f3d432dbb3aef5c31b} 
+\index{Fire@{Fire}!createSpaceShipFire@{createSpaceShipFire}}
+\index{createSpaceShipFire@{createSpaceShipFire}!Fire@{Fire}}
+\doxysubsubsection{\texorpdfstring{createSpaceShipFire()}{createSpaceShipFire()}}
+{\footnotesize\ttfamily void create\+Space\+Ship\+Fire (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}}]{player\+Ship }\end{DoxyParamCaption})}
+
+
+
+Creates player fire shots. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Ship} & Pointer to the player ship creating the fire shot. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__fire_ga0244b5ab577824f3d432dbb3aef5c31b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__fire_gaf25e565dd11f422b22ff7f26ba322049}\label{group__fire_gaf25e565dd11f422b22ff7f26ba322049} 
+\index{Fire@{Fire}!destroyFire@{destroyFire}}
+\index{destroyFire@{destroyFire}!Fire@{Fire}}
+\doxysubsubsection{\texorpdfstring{destroyFire()}{destroyFire()}}
+{\footnotesize\ttfamily void destroy\+Fire (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*}}]{fire }\end{DoxyParamCaption})}
+
+
+
+Destroys the player fire shot and frees its memory space. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enemy\+Fire} & Pointer to the player fire shot to be destroyed. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{group__fire_gaf25e565dd11f422b22ff7f26ba322049_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__fire_gaf25e565dd11f422b22ff7f26ba322049_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__fire_ga4ef0a221e1124625708288a1df8e640d}\label{group__fire_ga4ef0a221e1124625708288a1df8e640d} 
+\index{Fire@{Fire}!drawFire@{drawFire}}
+\index{drawFire@{drawFire}!Fire@{Fire}}
+\doxysubsubsection{\texorpdfstring{drawFire()}{drawFire()}}
+{\footnotesize\ttfamily void draw\+Fire (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_fire}{Fire}} \texorpdfstring{$\ast$}{*}}]{fire }\end{DoxyParamCaption})}
+
+
+
+Draws the player fire shot on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fire} & Pointer to the player fire shot to be drawn. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{group__fire_ga4ef0a221e1124625708288a1df8e640d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__fire_ga4ef0a221e1124625708288a1df8e640d_icgraph}
+\end{center}
+\end{figure}

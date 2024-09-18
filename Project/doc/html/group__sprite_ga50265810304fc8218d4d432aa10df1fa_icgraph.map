@@ -1,0 +1,14 @@
+<map id="draw_three_digits" name="draw_three_digits">
+<area shape="rect" id="Node000001" title="Draws a three&#45;digits number, one digit at a time, starting on a certain position of the screen." alt="" coords="714,31,836,57"/>
+<area shape="rect" id="Node000002" href="$group__game.html#ga8e846fdc79393705f939c88ba9e9bb31" title="Draws the end screen when the game is over." alt="" coords="360,5,482,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="698,41,482,26,482,20,698,36"/>
+<area shape="rect" id="Node000005" href="$group__game.html#ga0a617f379b096afd111bdb81a8f237f7" title="Draws the game status including score, lives, and level." alt="" coords="535,56,666,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="699,58,667,62,666,57,698,52"/>
+<area shape="rect" id="Node000003" href="$group__game.html#ga1ac9703965178958ecd2dafa9d64cbaf" title="Displays the current screen based on the game state." alt="" coords="162,31,306,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,32,307,37,306,32,344,26"/>
+<area shape="rect" id="Node000004" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="5,31,114,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="146,47,114,47,114,41,146,41"/>
+<area shape="rect" id="Node000006" href="$group__game.html#gae3dd9dc237064f3aa980f920658f9a50" title="Draws the game screen during gameplay." alt="" coords="354,56,487,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="519,72,488,72,488,67,519,67"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="338,61,306,56,307,51,339,56"/>
+</map>

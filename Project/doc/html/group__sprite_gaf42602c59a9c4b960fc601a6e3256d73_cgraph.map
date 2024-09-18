@@ -1,0 +1,13 @@
+<map id="draw_two_digits" name="draw_two_digits">
+<area shape="rect" id="Node000001" title="Draws a two&#45;digits number, one digit at a time, starting on a certain position of the screen." alt="" coords="5,56,119,83"/>
+<area shape="rect" id="Node000002" href="$group__sprite.html#ga52c340e42315af2dfe3efe4868edb3b3" title="Draws a one&#45;digit number on a certain screen coordinate using that digit sprite." alt="" coords="167,56,246,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,67,151,67,151,72,119,72"/>
+<area shape="rect" id="Node000003" href="$group__sprite.html#ga858c1454a817fd7dca9e21bafa491242" title="Draws a sprite on the screen." alt="" coords="297,5,384,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,53,288,35,290,40,245,58"/>
+<area shape="rect" id="Node000005" href="$group__sprite.html#ga9477a23aef14a41eaae372f9548568a8" title="Sets the x&#45;coordinate of a sprite." alt="" coords="294,56,386,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="247,67,279,67,279,72,247,72"/>
+<area shape="rect" id="Node000006" href="$group__sprite.html#gaf0882ac4534aad2d4c5d7246ef4eecfb" title="Sets the y&#45;coordinate of a sprite." alt="" coords="294,107,386,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="245,81,290,98,288,103,243,86"/>
+<area shape="rect" id="Node000004" href="$group__videocard.html#ga980ca443d7468fd7daeab10fce386ee9" title="Paints pixel (x,y) with the specified color by copying the color&#39;s bytes to the pixel&#39;s memory area." alt="" coords="434,5,502,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="384,16,419,16,419,21,384,21"/>
+</map>

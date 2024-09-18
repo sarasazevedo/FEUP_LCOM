@@ -1,0 +1,28 @@
+<map id="destroy_sprite" name="destroy_sprite">
+<area shape="rect" id="Node000001" title="Destroys a sprite, freeing its resources." alt="" coords="550,173,654,200"/>
+<area shape="rect" id="Node000002" href="$group__sprite.html#ga8fdbc6c7bfca3ef4a8800a3cdc19d932" title="Destroys all the sprites used in the game." alt="" coords="162,173,272,200"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="589,159,577,128,558,94,533,61,501,36,453,15,411,8,369,15,321,37,302,50,284,66,256,104,237,143,225,173,220,171,232,141,252,101,280,62,298,45,319,32,368,10,411,3,455,10,504,32,537,58,563,91,582,126,594,157"/>
+<area shape="rect" id="Node000004" href="$group__cursor.html#gad510a9ebcbf765461cba72ab75b0e314" title="Destroys the cursor and frees its memory space." alt="" coords="360,46,462,73"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="580,162,546,123,501,87,462,71,464,66,504,83,549,119,584,158"/>
+<area shape="rect" id="Node000005" href="$group__enemy.html#gade21f14f9d1e80dd3e6c893fb9fc61b2" title="Destroys the enemy and frees its memory space." alt="" coords="359,97,464,124"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="563,168,501,138,464,125,465,120,503,133,565,163"/>
+<area shape="rect" id="Node000006" href="$group__enemy_explosion.html#gaeda07860b001092d60482d8e21b55ee7" title="Destroys the enemy explosion and frees its memory space." alt="" coords="330,148,492,174"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="535,180,493,174,493,169,535,175"/>
+<area shape="rect" id="Node000007" href="$group__enemy_fire.html#ga2bd371f5e353c2364871ac0d3d7df7bc" title="Destroys the enemy fire shot and frees its memory space." alt="" coords="348,198,475,225"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="535,198,476,206,475,200,534,192"/>
+<area shape="rect" id="Node000008" href="$group__fire.html#gaf25e565dd11f422b22ff7f26ba322049" title="Destroys the player fire shot and frees its memory space." alt="" coords="368,249,454,276"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="565,210,503,239,455,255,454,250,501,234,563,205"/>
+<area shape="rect" id="Node000009" href="$group__playership.html#ga09da490e0b436b00fc596051bf1025be" title="Destroys the player spaceship and frees its memory space." alt="" coords="348,300,475,326"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="584,214,549,253,504,290,476,302,474,297,501,285,546,249,580,210"/>
+<area shape="rect" id="Node000010" href="$group__spaceship__explosion.html#ga87c6a171ad0f952130048e5034985a29" title="Destroys the spaceship explosion and frees its memory space." alt="" coords="320,350,502,377"/>
+<area shape="poly" id="edge15_Node000001_Node000010" title=" " alt="" coords="592,215,559,278,534,312,504,340,483,352,480,347,501,336,530,308,555,275,588,213"/>
+<area shape="rect" id="Node000003" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="5,173,114,200"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,189,114,189,114,184,146,184"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="346,76,321,87,293,107,267,131,230,174,226,171,263,127,289,103,319,83,344,71"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="344,130,321,138,244,175,242,170,319,133,343,125"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="315,176,273,182,272,176,314,171"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="332,204,272,196,272,191,332,199"/>
+<area shape="poly" id="edge12_Node000008_Node000002" title=" " alt="" coords="352,250,319,239,242,202,244,198,321,234,354,245"/>
+<area shape="poly" id="edge14_Node000009_Node000002" title=" " alt="" coords="332,297,319,290,289,269,263,245,226,202,230,198,267,241,293,265,321,285,334,292"/>
+<area shape="poly" id="edge16_Node000010_Node000002" title=" " alt="" coords="326,345,318,340,283,307,255,268,221,201,226,199,259,265,287,303,322,336,329,341"/>
+</map>

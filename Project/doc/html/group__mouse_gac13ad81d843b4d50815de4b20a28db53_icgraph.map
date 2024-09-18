@@ -1,0 +1,7 @@
+<map id="mouse_disable_data_report" name="mouse_disable_data_report">
+<area shape="rect" id="Node000001" title="Disable data reporting (in Stream Mode)" alt="" coords="362,5,502,48"/>
+<area shape="rect" id="Node000002" href="$proj_8c.html#a39ca4da537e3c0062ada871f99b91b8d" title="Unsubscribes all the needed device&#39;s interrupts." alt="" coords="162,13,314,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="347,29,314,29,314,24,347,24"/>
+<area shape="rect" id="Node000003" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="5,13,114,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,29,114,29,114,24,146,24"/>
+</map>

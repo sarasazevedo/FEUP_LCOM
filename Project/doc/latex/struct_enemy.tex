@@ -1,0 +1,98 @@
+\doxysection{Enemy Struct Reference}
+\hypertarget{struct_enemy}{}\label{struct_enemy}\index{Enemy@{Enemy}}
+
+
+Struct representing an enemy.  
+
+
+
+
+{\ttfamily \#include $<$enemy.\+h$>$}
+
+
+
+Collaboration diagram for Enemy\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{struct_enemy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_enemy_a71aa469403f28b0821081fd676ceda69}{x}}
+\item 
+uint16\+\_\+t \mbox{\hyperlink{struct_enemy_acc7dd473d1c3777f5232143d8939c46c}{y}}
+\item 
+bool \mbox{\hyperlink{struct_enemy_a26c34811424e665a6c2efb9100cae0d8}{alive}}
+\item 
+\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{struct_enemy_a8d71237a347451d49c8cde502e463e13}{sprites}}
+\item 
+\mbox{\hyperlink{struct_sprite}{Sprite}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{struct_enemy_ae9d69dabfa0c5bad7df4df5be8707a25}{curr\+\_\+sprite}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{struct_enemy_ae7ea9f12344cd8b841f1f637900cd377}{sprite\+\_\+quant}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{struct_enemy_a0a503d0888a0c7f107193f40c56a47cd}{curr\+\_\+sprite\+\_\+no}}
+\item 
+\mbox{\hyperlink{group__enemy_ga224b9163917ac32fc95a60d8c1eec3aa}{Direction}} \mbox{\hyperlink{struct_enemy_a7c52f26b7de302092a7fea48496916a7}{direction}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Struct representing an enemy. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{struct_enemy_a26c34811424e665a6c2efb9100cae0d8}\label{struct_enemy_a26c34811424e665a6c2efb9100cae0d8} 
+\index{Enemy@{Enemy}!alive@{alive}}
+\index{alive@{alive}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{alive}{alive}}
+{\footnotesize\ttfamily bool Enemy\+::alive}
+
+\doxylink{struct_enemy}{Enemy} alive status \Hypertarget{struct_enemy_ae9d69dabfa0c5bad7df4df5be8707a25}\label{struct_enemy_ae9d69dabfa0c5bad7df4df5be8707a25} 
+\index{Enemy@{Enemy}!curr\_sprite@{curr\_sprite}}
+\index{curr\_sprite@{curr\_sprite}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{curr\_sprite}{curr\_sprite}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_sprite}{Sprite}}\texorpdfstring{$\ast$}{*} Enemy\+::curr\+\_\+sprite}
+
+Current sprite of the enemy \Hypertarget{struct_enemy_a0a503d0888a0c7f107193f40c56a47cd}\label{struct_enemy_a0a503d0888a0c7f107193f40c56a47cd} 
+\index{Enemy@{Enemy}!curr\_sprite\_no@{curr\_sprite\_no}}
+\index{curr\_sprite\_no@{curr\_sprite\_no}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{curr\_sprite\_no}{curr\_sprite\_no}}
+{\footnotesize\ttfamily uint32\+\_\+t Enemy\+::curr\+\_\+sprite\+\_\+no}
+
+Current sprite number \Hypertarget{struct_enemy_a7c52f26b7de302092a7fea48496916a7}\label{struct_enemy_a7c52f26b7de302092a7fea48496916a7} 
+\index{Enemy@{Enemy}!direction@{direction}}
+\index{direction@{direction}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{direction}{direction}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__enemy_ga224b9163917ac32fc95a60d8c1eec3aa}{Direction}} Enemy\+::direction}
+
+Direction of the enemy \Hypertarget{struct_enemy_ae7ea9f12344cd8b841f1f637900cd377}\label{struct_enemy_ae7ea9f12344cd8b841f1f637900cd377} 
+\index{Enemy@{Enemy}!sprite\_quant@{sprite\_quant}}
+\index{sprite\_quant@{sprite\_quant}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{sprite\_quant}{sprite\_quant}}
+{\footnotesize\ttfamily uint32\+\_\+t Enemy\+::sprite\+\_\+quant}
+
+Quantity of sprites \Hypertarget{struct_enemy_a8d71237a347451d49c8cde502e463e13}\label{struct_enemy_a8d71237a347451d49c8cde502e463e13} 
+\index{Enemy@{Enemy}!sprites@{sprites}}
+\index{sprites@{sprites}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{sprites}{sprites}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_sprite}{Sprite}}\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} Enemy\+::sprites}
+
+Array of enemy sprites \Hypertarget{struct_enemy_a71aa469403f28b0821081fd676ceda69}\label{struct_enemy_a71aa469403f28b0821081fd676ceda69} 
+\index{Enemy@{Enemy}!x@{x}}
+\index{x@{x}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily uint16\+\_\+t Enemy\+::x}
+
+X position of the enemy \Hypertarget{struct_enemy_acc7dd473d1c3777f5232143d8939c46c}\label{struct_enemy_acc7dd473d1c3777f5232143d8939c46c} 
+\index{Enemy@{Enemy}!y@{y}}
+\index{y@{y}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily uint16\+\_\+t Enemy\+::y}
+
+Y position of the enemy 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enemy_8h}{enemy.\+h}}\end{DoxyCompactItemize}

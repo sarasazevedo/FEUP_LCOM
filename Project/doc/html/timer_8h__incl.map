@@ -1,0 +1,11 @@
+<map id="timer.h" name="timer.h">
+<area shape="rect" id="Node000001" title="Data structures and functions for timer functions." alt="" coords="69,5,131,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,83,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,34,76,55,62,81,54,111,49,140,44,139,48,110,58,79,72,52,87,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="124,155,188,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,31,128,52,142,79,152,110,156,139,151,140,146,111,138,81,124,55,108,34"/>
+<area shape="rect" id="Node000004" href="$utils_8c_source.html" title=" " alt="" coords="72,80,128,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="103,33,103,64,97,64,97,33"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="92,109,65,144,61,141,88,106"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="112,106,139,141,135,144,108,109"/>
+</map>

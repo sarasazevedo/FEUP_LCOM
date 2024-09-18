@@ -1,0 +1,68 @@
+\doxysection{player\+Ship.\+h File Reference}
+\hypertarget{player_ship_8h}{}\label{player_ship_8h}\index{playerShip.h@{playerShip.h}}
+
+
+Module for handling player spaceship in the game.  
+
+
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include "{}sprites/proj\+Pixmap.\+h"{}}\newline
+{\ttfamily \#include "{}sprites/sprite.\+h"{}}\newline
+{\ttfamily \#include "{}game\+Elements/spaceship\+\_\+explosion.\+h"{}}\newline
+{\ttfamily \#include "{}game\+Elements/enemy.\+h"{}}\newline
+Include dependency graph for player\+Ship.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{player_ship_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{player_ship_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_player_ship}{Player\+Ship}}
+\begin{DoxyCompactList}\small\item\em Struct representing the player spaceship. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{player_ship_8h_ab0cb1502619131448301759d341ba415}{SPACESHIP\+\_\+\+SPEED}}~3
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__playership_gae2d4b1295b904f1d4bc5a2b464c95ed8}{create\+Player\+Ship}} (xpm\+\_\+map\+\_\+t sprite, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Creates a player spaceship object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga7cb287b4e30778d5409f42149b748ae3}{draw\+Player\+Ship}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship)
+\begin{DoxyCompactList}\small\item\em Draws the player spaceship on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga71183cdc81fd9f000bc13240d1f7652c}{make\+Space\+Ship\+Explosion}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship)
+\begin{DoxyCompactList}\small\item\em Creates a spaceship explosion effect. \end{DoxyCompactList}\item 
+void {\bfseries update\+Spaceship\+Explosions} ()
+\begin{DoxyCompactList}\small\item\em Updates the spaceship explosion effect. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga09da490e0b436b00fc596051bf1025be}{destroy\+Player\+Ship}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship)
+\begin{DoxyCompactList}\small\item\em Destroys the player spaceship and frees its memory space. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__playership_ga23fef7f7a04159faea033c1595b2e220}{update\+Player\+Score}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}playership)
+\begin{DoxyCompactList}\small\item\em Updates the player\textquotesingle{}s score. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Module for handling player spaceship in the game. 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{player_ship_8h_ab0cb1502619131448301759d341ba415}\label{player_ship_8h_ab0cb1502619131448301759d341ba415} 
+\index{playerShip.h@{playerShip.h}!SPACESHIP\_SPEED@{SPACESHIP\_SPEED}}
+\index{SPACESHIP\_SPEED@{SPACESHIP\_SPEED}!playerShip.h@{playerShip.h}}
+\doxysubsubsection{\texorpdfstring{SPACESHIP\_SPEED}{SPACESHIP\_SPEED}}
+{\footnotesize\ttfamily \#define SPACESHIP\+\_\+\+SPEED~3}
+
+Speed of the spaceship 

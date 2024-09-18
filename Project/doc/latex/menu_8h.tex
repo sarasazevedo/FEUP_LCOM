@@ -1,0 +1,59 @@
+\doxysection{menu.\+h File Reference}
+\hypertarget{menu_8h}{}\label{menu_8h}\index{menu.h@{menu.h}}
+
+
+Module for handling game menus and time display.  
+
+
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include "{}cursor.\+h"{}}\newline
+{\ttfamily \#include "{}sprites/sprite.\+h"{}}\newline
+{\ttfamily \#include "{}game\+Elements/player\+Ship.\+h"{}}\newline
+{\ttfamily \#include "{}game\+Elements/spaceship\+\_\+explosion.\+h"{}}\newline
+{\ttfamily \#include "{}game\+Elements/enemy.\+h"{}}\newline
+{\ttfamily \#include "{}game\+Elements/fire.\+h"{}}\newline
+{\ttfamily \#include "{}devices/\+RTC.\+h"{}}\newline
+Include dependency graph for menu.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{menu_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{menu_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group__menu_ga905479d79c2aa8410d2fc374bc75cc5b}{menu}} \{ \mbox{\hyperlink{group__menu_gga905479d79c2aa8410d2fc374bc75cc5ba41c6eb506ccf657cc7e958c8e8c769cd}{MAIN}}
+, \mbox{\hyperlink{group__menu_gga905479d79c2aa8410d2fc374bc75cc5ba8ac6a0bc60a7a5faad394dc988be36eb}{LEADERBOARD}}
+, \mbox{\hyperlink{group__menu_gga905479d79c2aa8410d2fc374bc75cc5ba2a3b2d79801adcf99fc1d4565dc6f825}{INSTRUCTIONS}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum type for the existing Menus. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{group__menu_ga2bb3561aa08889f0aa1d5946e0fec876}{menu\+Selected\+State}} \{ \newline
+\mbox{\hyperlink{group__menu_gga2bb3561aa08889f0aa1d5946e0fec876a7116db6906963fd0720c4a85be250cf4}{INITIAL}}
+, \mbox{\hyperlink{group__menu_gga2bb3561aa08889f0aa1d5946e0fec876a0d8370ba0c7f4f38f99093e40eea255b}{HOVER\+\_\+\+PLAY}}
+, \mbox{\hyperlink{group__menu_gga2bb3561aa08889f0aa1d5946e0fec876a3e7d5e75510208eb81c12b610decdc1d}{HOVER\+\_\+\+LEADER\+\_\+\+BOARD}}
+, \mbox{\hyperlink{group__menu_gga2bb3561aa08889f0aa1d5946e0fec876ab8bc1f1cb52bd1a9907754f1d56764cd}{HOVER\+\_\+\+INSTRUCTIONS}}
+, \newline
+\mbox{\hyperlink{group__menu_gga2bb3561aa08889f0aa1d5946e0fec876a3fe78e1cf646938b3a0818c744bfd4e9}{HOVER\+\_\+\+QUIT}}
+, \mbox{\hyperlink{group__menu_gga2bb3561aa08889f0aa1d5946e0fec876a6c352484647d24c91edb48f26af032c4}{HOVER\+\_\+\+BACK}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum type for the selected state of the menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__menu_ga56a31ac38f07280573662926cc1046b0}{draw\+\_\+menu}} (\mbox{\hyperlink{group__menu_ga905479d79c2aa8410d2fc374bc75cc5b}{menu}} \mbox{\hyperlink{group__menu_ga905479d79c2aa8410d2fc374bc75cc5b}{menu}})
+\begin{DoxyCompactList}\small\item\em Draws the specified menu. \end{DoxyCompactList}\item 
+void {\bfseries draw\+\_\+time} ()
+\begin{DoxyCompactList}\small\item\em Draws the current time on the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Module for handling game menus and time display. 
+

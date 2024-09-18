@@ -1,0 +1,155 @@
+\doxysection{Enemy\+Explosion}
+\hypertarget{group__enemy_explosion}{}\label{group__enemy_explosion}\index{EnemyExplosion@{EnemyExplosion}}
+
+
+\doxylink{struct_enemy_explosion}{Enemy\+Explosion} related functions.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}}
+\begin{DoxyCompactList}\small\item\em Struct representing an enemy explosion in the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__enemy_explosion_ga4eac97f18b759594cf854aad92f12add}{create\+Enemy\+Explosion}} (xpm\+\_\+map\+\_\+t sprite1, xpm\+\_\+map\+\_\+t sprite2, xpm\+\_\+map\+\_\+t sprite3, xpm\+\_\+map\+\_\+t sprite4, xpm\+\_\+map\+\_\+t sprite5, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Creates a new enemy explosion. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__enemy_explosion_gae1a155dc36209a3f4d3c7bcef17f4a4f}{update\+Enemy\+Explosion\+Sprite}} (\mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*}sprite)
+\begin{DoxyCompactList}\small\item\em Updates the sprite of the enemy explosion. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__enemy_explosion_ga8c1f97955695b6083c29264d0c2b90e2}{draw\+Enemy\+Explosion}} (\mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*}explosion)
+\begin{DoxyCompactList}\small\item\em Draws the enemy explosion on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__enemy_explosion_gaeda07860b001092d60482d8e21b55ee7}{destroy\+Enemy\+Explosion}} (\mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*}explosion)
+\begin{DoxyCompactList}\small\item\em Destroys the enemy explosion and frees its memory space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{struct_enemy_explosion}{Enemy\+Explosion} related functions. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__enemy_explosion_ga4eac97f18b759594cf854aad92f12add}\label{group__enemy_explosion_ga4eac97f18b759594cf854aad92f12add} 
+\index{EnemyExplosion@{EnemyExplosion}!createEnemyExplosion@{createEnemyExplosion}}
+\index{createEnemyExplosion@{createEnemyExplosion}!EnemyExplosion@{EnemyExplosion}}
+\doxysubsubsection{\texorpdfstring{createEnemyExplosion()}{createEnemyExplosion()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*} create\+Enemy\+Explosion (\begin{DoxyParamCaption}\item[{xpm\+\_\+map\+\_\+t}]{sprite1,  }\item[{xpm\+\_\+map\+\_\+t}]{sprite2,  }\item[{xpm\+\_\+map\+\_\+t}]{sprite3,  }\item[{xpm\+\_\+map\+\_\+t}]{sprite4,  }\item[{xpm\+\_\+map\+\_\+t}]{sprite5,  }\item[{uint16\+\_\+t}]{x,  }\item[{uint16\+\_\+t}]{y }\end{DoxyParamCaption})}
+
+
+
+Creates a new enemy explosion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sprite1} & XPM map of the first sprite for the explosion animation. \\
+\hline
+{\em sprite2} & XPM map of the second sprite for the explosion animation. \\
+\hline
+{\em sprite3} & XPM map of the third sprite for the explosion animation. \\
+\hline
+{\em sprite4} & XPM map of the fourth sprite for the explosion animation. \\
+\hline
+{\em sprite5} & XPM map of the fifth sprite for the explosion animation. \\
+\hline
+{\em x} & Initial X-\/coordinate of the enemy explosion. \\
+\hline
+{\em y} & Initial Y-\/coordinate of the enemy explosion. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the created enemy explosion. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__enemy_explosion_ga4eac97f18b759594cf854aad92f12add_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__enemy_explosion_ga4eac97f18b759594cf854aad92f12add_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__enemy_explosion_gaeda07860b001092d60482d8e21b55ee7}\label{group__enemy_explosion_gaeda07860b001092d60482d8e21b55ee7} 
+\index{EnemyExplosion@{EnemyExplosion}!destroyEnemyExplosion@{destroyEnemyExplosion}}
+\index{destroyEnemyExplosion@{destroyEnemyExplosion}!EnemyExplosion@{EnemyExplosion}}
+\doxysubsubsection{\texorpdfstring{destroyEnemyExplosion()}{destroyEnemyExplosion()}}
+{\footnotesize\ttfamily void destroy\+Enemy\+Explosion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*}}]{explosion }\end{DoxyParamCaption})}
+
+
+
+Destroys the enemy explosion and frees its memory space. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em explosion} & Pointer to the enemy explosion to be destroyed. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{group__enemy_explosion_gaeda07860b001092d60482d8e21b55ee7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__enemy_explosion_gaeda07860b001092d60482d8e21b55ee7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__enemy_explosion_ga8c1f97955695b6083c29264d0c2b90e2}\label{group__enemy_explosion_ga8c1f97955695b6083c29264d0c2b90e2} 
+\index{EnemyExplosion@{EnemyExplosion}!drawEnemyExplosion@{drawEnemyExplosion}}
+\index{drawEnemyExplosion@{drawEnemyExplosion}!EnemyExplosion@{EnemyExplosion}}
+\doxysubsubsection{\texorpdfstring{drawEnemyExplosion()}{drawEnemyExplosion()}}
+{\footnotesize\ttfamily void draw\+Enemy\+Explosion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*}}]{explosion }\end{DoxyParamCaption})}
+
+
+
+Draws the enemy explosion on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em explosion} & Pointer to the enemy explosion. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__enemy_explosion_ga8c1f97955695b6083c29264d0c2b90e2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__enemy_explosion_ga8c1f97955695b6083c29264d0c2b90e2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__enemy_explosion_gae1a155dc36209a3f4d3c7bcef17f4a4f}\label{group__enemy_explosion_gae1a155dc36209a3f4d3c7bcef17f4a4f} 
+\index{EnemyExplosion@{EnemyExplosion}!updateEnemyExplosionSprite@{updateEnemyExplosionSprite}}
+\index{updateEnemyExplosionSprite@{updateEnemyExplosionSprite}!EnemyExplosion@{EnemyExplosion}}
+\doxysubsubsection{\texorpdfstring{updateEnemyExplosionSprite()}{updateEnemyExplosionSprite()}}
+{\footnotesize\ttfamily void update\+Enemy\+Explosion\+Sprite (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_enemy_explosion}{Enemy\+Explosion}} \texorpdfstring{$\ast$}{*}}]{sprite }\end{DoxyParamCaption})}
+
+
+
+Updates the sprite of the enemy explosion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em explosion} & Pointer to the enemy explosion. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__enemy_explosion_gae1a155dc36209a3f4d3c7bcef17f4a4f_icgraph}
+\end{center}
+\end{figure}

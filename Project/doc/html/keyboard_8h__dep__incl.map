@@ -1,0 +1,10 @@
+<map id="keyboard.h" name="keyboard.h">
+<area shape="rect" id="Node000001" title="Functions for using the Keyboard." alt="" coords="9,5,95,32"/>
+<area shape="rect" id="Node000002" href="$game_8h.html" title="Module for handling game loop." alt="" coords="20,80,84,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,48,55,80,49,80,49,48"/>
+<area shape="rect" id="Node000003" href="$enemy_fire_8h.html" title="Module for handling enemy fire in the game." alt="" coords="5,155,99,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="46,122,48,154,42,154,41,122"/>
+<area shape="rect" id="Node000004" href="$proj_8c.html" title="Project main loop." alt="" coords="123,155,176,181"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="83,114,134,152,131,156,79,118"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="58,139,56,107,62,107,63,139"/>
+</map>

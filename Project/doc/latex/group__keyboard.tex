@@ -1,0 +1,114 @@
+\doxysection{keyboard}
+\hypertarget{group__keyboard}{}\label{group__keyboard}\index{keyboard@{keyboard}}
+
+
+keyboard related functions  
+
+
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{group__keyboard_gac13a06b6553fa672d527f3ef576b8cd6}{keyboard\+\_\+subscribe\+\_\+int}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}irq\+\_\+set\+\_\+mask)
+\begin{DoxyCompactList}\small\item\em Subscribes Keyboard interrupts and disables default IH. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__keyboard_gac95aea27a5e91b363b876fed881f368f}{keyboard\+\_\+unsubscribe\+\_\+int}} ()
+\begin{DoxyCompactList}\small\item\em Unsubscribes Keyboard interrupts. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__keyboard_gadfab4dca3e7b5ac340210f54f599896f}{keyboard\+\_\+int\+\_\+enabler}} ()
+\begin{DoxyCompactList}\small\item\em Configure KBC to enable interrupts on OBF from Keyboard. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__keyboard_ga17fe28e87f3247b3f13589a285b05885}{keyboard\+\_\+int\+\_\+disabler}} ()
+\begin{DoxyCompactList}\small\item\em Configure KBC to disable interrupts on OBF from Keyboard. \end{DoxyCompactList}\item 
+\Hypertarget{group__keyboard_gab9e6ed7960d60aa4834f2038247d4536}\label{group__keyboard_gab9e6ed7960d60aa4834f2038247d4536} 
+void {\bfseries kbc\+\_\+ih} ()
+\begin{DoxyCompactList}\small\item\em Reads a byte coming from the keyboard and tries to build a scancode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+keyboard related functions 
+
+Functions for using the Keyboard 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group__keyboard_ga17fe28e87f3247b3f13589a285b05885}\label{group__keyboard_ga17fe28e87f3247b3f13589a285b05885} 
+\index{keyboard@{keyboard}!keyboard\_int\_disabler@{keyboard\_int\_disabler}}
+\index{keyboard\_int\_disabler@{keyboard\_int\_disabler}!keyboard@{keyboard}}
+\doxysubsubsection{\texorpdfstring{keyboard\_int\_disabler()}{keyboard\_int\_disabler()}}
+{\footnotesize\ttfamily int keyboard\+\_\+int\+\_\+disabler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Configure KBC to disable interrupts on OBF from Keyboard. 
+
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__keyboard_ga17fe28e87f3247b3f13589a285b05885_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__keyboard_gadfab4dca3e7b5ac340210f54f599896f}\label{group__keyboard_gadfab4dca3e7b5ac340210f54f599896f} 
+\index{keyboard@{keyboard}!keyboard\_int\_enabler@{keyboard\_int\_enabler}}
+\index{keyboard\_int\_enabler@{keyboard\_int\_enabler}!keyboard@{keyboard}}
+\doxysubsubsection{\texorpdfstring{keyboard\_int\_enabler()}{keyboard\_int\_enabler()}}
+{\footnotesize\ttfamily int keyboard\+\_\+int\+\_\+enabler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Configure KBC to enable interrupts on OBF from Keyboard. 
+
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__keyboard_gadfab4dca3e7b5ac340210f54f599896f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__keyboard_gac13a06b6553fa672d527f3ef576b8cd6}\label{group__keyboard_gac13a06b6553fa672d527f3ef576b8cd6} 
+\index{keyboard@{keyboard}!keyboard\_subscribe\_int@{keyboard\_subscribe\_int}}
+\index{keyboard\_subscribe\_int@{keyboard\_subscribe\_int}!keyboard@{keyboard}}
+\doxysubsubsection{\texorpdfstring{keyboard\_subscribe\_int()}{keyboard\_subscribe\_int()}}
+{\footnotesize\ttfamily int keyboard\+\_\+subscribe\+\_\+int (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{irq\+\_\+set\+\_\+mask }\end{DoxyParamCaption})}
+
+
+
+Subscribes Keyboard interrupts and disables default IH. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em irq\+\_\+set\+\_\+mask} & address of memory to be initialized with mask with bit number keyboard\+\_\+hook\+\_\+id set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__keyboard_gac13a06b6553fa672d527f3ef576b8cd6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__keyboard_gac95aea27a5e91b363b876fed881f368f}\label{group__keyboard_gac95aea27a5e91b363b876fed881f368f} 
+\index{keyboard@{keyboard}!keyboard\_unsubscribe\_int@{keyboard\_unsubscribe\_int}}
+\index{keyboard\_unsubscribe\_int@{keyboard\_unsubscribe\_int}!keyboard@{keyboard}}
+\doxysubsubsection{\texorpdfstring{keyboard\_unsubscribe\_int()}{keyboard\_unsubscribe\_int()}}
+{\footnotesize\ttfamily int keyboard\+\_\+unsubscribe\+\_\+int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Unsubscribes Keyboard interrupts. 
+
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__keyboard_gac95aea27a5e91b363b876fed881f368f_icgraph}
+\end{center}
+\end{figure}

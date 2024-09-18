@@ -1,0 +1,35 @@
+\doxysection{enemy\+Explosion.\+h}
+\hypertarget{enemy_explosion_8h_source}{}\label{enemy_explosion_8h_source}\index{enemyExplosion.h@{enemyExplosion.h}}
+\mbox{\hyperlink{enemy_explosion_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ \_LCOM\_ENEMYEXPLOSION\_H\_}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ \_LCOM\_ENEMYEXPLOSION\_H\_}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}sprites/projPixmap.h"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{sprite_8h}{sprites/sprite.h}}"{}}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00028\ \ \ uint16\_t\ \mbox{\hyperlink{struct_enemy_explosion_a78bb351246fc21573b86c966c317aaa3}{x}};\ }
+\DoxyCodeLine{00029\ \ \ uint16\_t\ \mbox{\hyperlink{struct_enemy_explosion_ae8d3038cc38263f8c660593cee4f5725}{y}};\ }
+\DoxyCodeLine{00030\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_enemy_explosion_a5e82129ba8a58316980287a350bc22ba}{alive}};\ }
+\DoxyCodeLine{00031\ \ \ \mbox{\hyperlink{struct_sprite}{Sprite}}**\ \mbox{\hyperlink{struct_enemy_explosion_a22baa39a134fa0ae4213394b86d12ece}{sprites}};\ }
+\DoxyCodeLine{00032\ \ \ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\ \mbox{\hyperlink{struct_enemy_explosion_ad272d8e9ce6733caf901f1f8ae3b7998}{curr\_sprite}};\ }
+\DoxyCodeLine{00033\ \ \ uint32\_t\ \mbox{\hyperlink{struct_enemy_explosion_ae5fb7e5d615764ecc4cd8f692e64b3d8}{sprite\_quant}};\ }
+\DoxyCodeLine{00034\ \ \ uint32\_t\ \mbox{\hyperlink{struct_enemy_explosion_a2b135674104a2c0403977b3bd23af148}{curr\_sprite\_no}};\ }
+\DoxyCodeLine{00035\ \}\ \mbox{\hyperlink{struct_enemy_explosion}{EnemyExplosion}};}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00049\ \mbox{\hyperlink{struct_enemy_explosion}{EnemyExplosion}}*\ \mbox{\hyperlink{group__enemy_explosion_ga4eac97f18b759594cf854aad92f12add}{createEnemyExplosion}}(xpm\_map\_t\ sprite1,\ xpm\_map\_t\ sprite2,\ xpm\_map\_t\ sprite3,\ xpm\_map\_t\ sprite4,\ xpm\_map\_t\ sprite5,\ uint16\_t\ x,\ uint16\_t\ y);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \textcolor{keywordtype}{void}\ \ \mbox{\hyperlink{group__enemy_explosion_gae1a155dc36209a3f4d3c7bcef17f4a4f}{updateEnemyExplosionSprite}}(\mbox{\hyperlink{struct_enemy_explosion}{EnemyExplosion}}*\ sprite);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00063\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__enemy_explosion_ga8c1f97955695b6083c29264d0c2b90e2}{drawEnemyExplosion}}(\mbox{\hyperlink{struct_enemy_explosion}{EnemyExplosion}}*\ explosion);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00070\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__enemy_explosion_gaeda07860b001092d60482d8e21b55ee7}{destroyEnemyExplosion}}(\mbox{\hyperlink{struct_enemy_explosion}{EnemyExplosion}}*\ explosion);}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00074\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_LCOM\_ENEMYEXPLOSION\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

@@ -1,0 +1,7 @@
+<map id="createPlayerShip" name="createPlayerShip">
+<area shape="rect" id="Node000001" title="Creates a player spaceship object." alt="" coords="5,5,126,32"/>
+<area shape="rect" id="Node000002" href="$group__sprite.html#gae3b5269417e670468bb6c271d18db07f" title="Creates a new sprite with the given parameters." alt="" coords="174,5,270,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,16,158,16,158,21,126,21"/>
+<area shape="rect" id="Node000003" href="$group__videocard.html#ga76cb0f21a48aab0d29e4868081b3feab" title="Loads a XPM image from a XPM pixmap, with the xpm_image_type being XPM_8_8_8_8 (direct color mode wit..." alt="" coords="318,5,420,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,16,302,16,302,21,271,21"/>
+</map>

@@ -1,0 +1,235 @@
+\doxysection{KBC}
+\hypertarget{group___k_b_c}{}\label{group___k_b_c}\index{KBC@{KBC}}
+
+
+Functions for using the i8042 KBC.  
+
+
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{group___k_b_c_gabaa6e25516d3e426a0b8fd1bb4bc7ed5}{kbc\+\_\+get\+\_\+status}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}stat)
+\begin{DoxyCompactList}\small\item\em Reads KBC\textquotesingle{}s STAT\+\_\+\+REG to get the status byte. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___k_b_c_ga3c164b15c2dd93b4ffc129202f39ed07}{read\+\_\+\+OBF}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}op)
+\begin{DoxyCompactList}\small\item\em Reads the output buffer register. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___k_b_c_gabef3eccaff6bab20a9c1f4525948d299}{check\+\_\+errors}} (uint8\+\_\+t status, bool from\+\_\+mouse)
+\begin{DoxyCompactList}\small\item\em Checks for existing errors on the control register status. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___k_b_c_ga1bb84818fda416e607a221b4e58defca}{kbc\+\_\+get\+\_\+out}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}out, bool from\+\_\+mouse)
+\begin{DoxyCompactList}\small\item\em Reads OUT\+\_\+\+BUF when full, verifies data validity and if it comes from the wanted device. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___k_b_c_ga4bbd3043c99b06f25e525951cfde5a20}{kbc\+\_\+write\+\_\+input}} (int port, uint8\+\_\+t command\+Or\+Arg)
+\begin{DoxyCompactList}\small\item\em Writes to KBC\textquotesingle{}s input buffers (port 0x64 or 0x60) when not full. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___k_b_c_ga90f69bf6e63dc7f3a348db65ba7a6a28}{kbc\+\_\+configure}} (uint8\+\_\+t command\+Byte)
+\begin{DoxyCompactList}\small\item\em Sends KBC command to write Command Byte and writes one. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___k_b_c_ga9749e9f99375c10a1b7b1f70d1621785}{kbc\+\_\+get\+\_\+conf}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}command\+Byte)
+\begin{DoxyCompactList}\small\item\em Sends KBC command to read Command Byte and reads it from OUT\+\_\+\+BUF. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Functions for using the i8042 KBC. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group___k_b_c_gabef3eccaff6bab20a9c1f4525948d299}\label{group___k_b_c_gabef3eccaff6bab20a9c1f4525948d299} 
+\index{KBC@{KBC}!check\_errors@{check\_errors}}
+\index{check\_errors@{check\_errors}!KBC@{KBC}}
+\doxysubsubsection{\texorpdfstring{check\_errors()}{check\_errors()}}
+{\footnotesize\ttfamily int check\+\_\+errors (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{status,  }\item[{bool}]{from\+\_\+mouse }\end{DoxyParamCaption})}
+
+
+
+Checks for existing errors on the control register status. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & The status to check for errors \\
+\hline
+{\em from\+\_\+mouse} & True if the data is coming from the mouse, false if is coming from the keyboard \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___k_b_c_gabef3eccaff6bab20a9c1f4525948d299_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___k_b_c_ga90f69bf6e63dc7f3a348db65ba7a6a28}\label{group___k_b_c_ga90f69bf6e63dc7f3a348db65ba7a6a28} 
+\index{KBC@{KBC}!kbc\_configure@{kbc\_configure}}
+\index{kbc\_configure@{kbc\_configure}!KBC@{KBC}}
+\doxysubsubsection{\texorpdfstring{kbc\_configure()}{kbc\_configure()}}
+{\footnotesize\ttfamily int kbc\+\_\+configure (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{command\+Byte }\end{DoxyParamCaption})}
+
+
+
+Sends KBC command to write Command Byte and writes one. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em command\+Byte} & The command byte to write \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___k_b_c_ga90f69bf6e63dc7f3a348db65ba7a6a28_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{group___k_b_c_ga90f69bf6e63dc7f3a348db65ba7a6a28_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___k_b_c_ga9749e9f99375c10a1b7b1f70d1621785}\label{group___k_b_c_ga9749e9f99375c10a1b7b1f70d1621785} 
+\index{KBC@{KBC}!kbc\_get\_conf@{kbc\_get\_conf}}
+\index{kbc\_get\_conf@{kbc\_get\_conf}!KBC@{KBC}}
+\doxysubsubsection{\texorpdfstring{kbc\_get\_conf()}{kbc\_get\_conf()}}
+{\footnotesize\ttfamily int kbc\+\_\+get\+\_\+conf (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{command\+Byte }\end{DoxyParamCaption})}
+
+
+
+Sends KBC command to read Command Byte and reads it from OUT\+\_\+\+BUF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em command\+Byte} & Variable to store the read command byte \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___k_b_c_ga9749e9f99375c10a1b7b1f70d1621785_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{group___k_b_c_ga9749e9f99375c10a1b7b1f70d1621785_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___k_b_c_ga1bb84818fda416e607a221b4e58defca}\label{group___k_b_c_ga1bb84818fda416e607a221b4e58defca} 
+\index{KBC@{KBC}!kbc\_get\_out@{kbc\_get\_out}}
+\index{kbc\_get\_out@{kbc\_get\_out}!KBC@{KBC}}
+\doxysubsubsection{\texorpdfstring{kbc\_get\_out()}{kbc\_get\_out()}}
+{\footnotesize\ttfamily int kbc\+\_\+get\+\_\+out (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{out,  }\item[{bool}]{from\+\_\+mouse }\end{DoxyParamCaption})}
+
+
+
+Reads OUT\+\_\+\+BUF when full, verifies data validity and if it comes from the wanted device. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em from\+\_\+mouse} & True if the data should be coming from the mouse, false if it should be coming from the keyboard \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{group___k_b_c_ga1bb84818fda416e607a221b4e58defca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___k_b_c_ga1bb84818fda416e607a221b4e58defca_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___k_b_c_gabaa6e25516d3e426a0b8fd1bb4bc7ed5}\label{group___k_b_c_gabaa6e25516d3e426a0b8fd1bb4bc7ed5} 
+\index{KBC@{KBC}!kbc\_get\_status@{kbc\_get\_status}}
+\index{kbc\_get\_status@{kbc\_get\_status}!KBC@{KBC}}
+\doxysubsubsection{\texorpdfstring{kbc\_get\_status()}{kbc\_get\_status()}}
+{\footnotesize\ttfamily int kbc\+\_\+get\+\_\+status (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{stat }\end{DoxyParamCaption})}
+
+
+
+Reads KBC\textquotesingle{}s STAT\+\_\+\+REG to get the status byte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stat} & Variable to store the read status \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___k_b_c_gabaa6e25516d3e426a0b8fd1bb4bc7ed5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___k_b_c_ga4bbd3043c99b06f25e525951cfde5a20}\label{group___k_b_c_ga4bbd3043c99b06f25e525951cfde5a20} 
+\index{KBC@{KBC}!kbc\_write\_input@{kbc\_write\_input}}
+\index{kbc\_write\_input@{kbc\_write\_input}!KBC@{KBC}}
+\doxysubsubsection{\texorpdfstring{kbc\_write\_input()}{kbc\_write\_input()}}
+{\footnotesize\ttfamily int kbc\+\_\+write\+\_\+input (\begin{DoxyParamCaption}\item[{int}]{port,  }\item[{uint8\+\_\+t}]{command\+Or\+Arg }\end{DoxyParamCaption})}
+
+
+
+Writes to KBC\textquotesingle{}s input buffers (port 0x64 or 0x60) when not full. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & The port to write to \\
+\hline
+{\em command\+Or\+Arg} & The command or argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{group___k_b_c_ga4bbd3043c99b06f25e525951cfde5a20_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___k_b_c_ga4bbd3043c99b06f25e525951cfde5a20_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___k_b_c_ga3c164b15c2dd93b4ffc129202f39ed07}\label{group___k_b_c_ga3c164b15c2dd93b4ffc129202f39ed07} 
+\index{KBC@{KBC}!read\_OBF@{read\_OBF}}
+\index{read\_OBF@{read\_OBF}!KBC@{KBC}}
+\doxysubsubsection{\texorpdfstring{read\_OBF()}{read\_OBF()}}
+{\footnotesize\ttfamily int read\+\_\+\+OBF (\begin{DoxyParamCaption}\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{op }\end{DoxyParamCaption})}
+
+
+
+Reads the output buffer register. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em op} & Variable to store the read output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 upon success and non-\/zero otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___k_b_c_ga3c164b15c2dd93b4ffc129202f39ed07_icgraph}
+\end{center}
+\end{figure}

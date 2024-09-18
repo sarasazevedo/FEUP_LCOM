@@ -1,0 +1,28 @@
+<map id="create_sprite" name="create_sprite">
+<area shape="rect" id="Node000001" title="Creates a new sprite with the given parameters." alt="" coords="527,183,624,209"/>
+<area shape="rect" id="Node000002" href="$group__cursor.html#ga962b65dff016ac07d7a2717635c65d29" title="Creates a new cursor." alt="" coords="354,5,449,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="560,169,527,111,505,80,478,53,447,35,450,30,481,49,509,76,532,108,564,167"/>
+<area shape="rect" id="Node000003" href="$group__sprite.html#ga5347e85e2c2ea95aa825425bb336f148" title="Initializes all the needed sprites for the game." alt="" coords="162,183,276,209"/>
+<area shape="poly" id="edge16_Node000001_Node000003" title=" " alt="" coords="556,171,524,130,503,111,478,97,437,82,402,77,367,82,325,97,294,115,268,138,231,184,227,180,264,135,291,110,323,92,366,77,402,72,438,77,480,92,506,107,528,127,561,168"/>
+<area shape="rect" id="Node000005" href="$group__enemy.html#ga8a78606530bcf77847dc538a8d72690a" title="Creates a new enemy." alt="" coords="353,107,451,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="537,177,478,148,448,136,450,131,480,143,539,172"/>
+<area shape="rect" id="Node000006" href="$group__enemy_explosion.html#ga4eac97f18b759594cf854aad92f12add" title="Creates a new enemy explosion." alt="" coords="324,157,479,184"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="512,189,479,185,480,179,512,184"/>
+<area shape="rect" id="Node000007" href="$group__enemy_fire.html#gacc7ca61d8c0f9e2ea3806b964183dbf0" title="Creates a new enemy fire projectile." alt="" coords="342,208,462,235"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="512,208,463,215,462,210,511,203"/>
+<area shape="rect" id="Node000008" href="$group__spaceship__explosion.html#gaec9c7870907030a101f2ab4268843e48" title="Creates a spaceship explosion object." alt="" coords="345,259,459,285"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="539,220,480,249,450,261,448,256,478,244,537,215"/>
+<area shape="rect" id="Node000009" href="$group__fire.html#gad31f7fe8def3820a6085238ba6e9510f" title="Creates a new player fire projectile." alt="" coords="362,309,441,336"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="558,224,525,263,481,300,443,316,441,311,478,295,521,259,554,220"/>
+<area shape="rect" id="Node000010" href="$group__playership.html#gae2d4b1295b904f1d4bc5a2b464c95ed8" title="Creates a player spaceship object." alt="" coords="342,360,462,387"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="566,225,534,288,510,321,481,350,461,362,459,357,478,346,506,318,530,285,561,223"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,41,326,53,293,85,265,121,229,183,224,181,261,118,289,81,322,49,341,37"/>
+<area shape="rect" id="Node000004" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="5,183,114,209"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="146,199,114,199,114,193,146,193"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="342,141,325,148,247,185,245,180,323,143,340,136"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="309,186,277,191,276,185,308,181"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="326,214,276,207,277,201,326,208"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="340,256,323,249,245,212,247,207,325,244,342,251"/>
+<area shape="poly" id="edge13_Node000009_Node000003" title=" " alt="" coords="346,311,323,300,293,279,267,255,229,212,233,208,271,251,297,274,325,295,348,306"/>
+<area shape="poly" id="edge15_Node000010_Node000003" title=" " alt="" coords="329,355,322,350,287,316,258,277,223,211,228,208,263,274,291,313,326,346,332,350"/>
+</map>

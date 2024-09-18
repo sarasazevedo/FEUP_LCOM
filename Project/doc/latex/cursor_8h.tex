@@ -1,0 +1,47 @@
+\doxysection{cursor.\+h File Reference}
+\hypertarget{cursor_8h}{}\label{cursor_8h}\index{cursor.h@{cursor.h}}
+
+
+Module for handling cursor in the game.  
+
+
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include "{}sprites/proj\+Pixmap.\+h"{}}\newline
+{\ttfamily \#include "{}sprites/sprite.\+h"{}}\newline
+{\ttfamily \#include "{}devices/videocard.\+h"{}}\newline
+Include dependency graph for cursor.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{cursor_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{cursor_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_cursor}{Cursor}}
+\begin{DoxyCompactList}\small\item\em Structure representing a cursor in the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__cursor_ga962b65dff016ac07d7a2717635c65d29}{create\+Cursor}} (xpm\+\_\+map\+\_\+t sprite, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Creates a new cursor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__cursor_ga8284595468388b00a8af9c0392ddeac5}{draw\+Cursor}} (\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}cursor)
+\begin{DoxyCompactList}\small\item\em Draws the cursor on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__cursor_ga2c3cd97520ea04d170ada92b91f479c9}{update\+Cursor}} (\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}cursor, uint16\+\_\+t x, uint16\+\_\+t y)
+\begin{DoxyCompactList}\small\item\em Updates the position of the cursor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__cursor_gad510a9ebcbf765461cba72ab75b0e314}{destroy\+Cursor}} (\mbox{\hyperlink{struct_cursor}{Cursor}} \texorpdfstring{$\ast$}{*}cursor)
+\begin{DoxyCompactList}\small\item\em Destroys the cursor and frees its memory space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Module for handling cursor in the game. 
+

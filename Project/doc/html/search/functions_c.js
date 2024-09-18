@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['unsubscribe_5finterrupts_0',['unsubscribe_interrupts',['../proj_8c.html#a39ca4da537e3c0062ada871f99b91b8d',1,'proj.c']]],
+  ['updatecursor_1',['updateCursor',['../group__cursor.html#ga2c3cd97520ea04d170ada92b91f479c9',1,'updateCursor(Cursor *cursor, uint16_t x, uint16_t y):&#160;cursor.c'],['../group__cursor.html#ga2c3cd97520ea04d170ada92b91f479c9',1,'updateCursor(Cursor *cursor, uint16_t x, uint16_t y):&#160;cursor.c']]],
+  ['updateenemiesandexplosions_2',['updateEnemiesAndExplosions',['../group__enemy.html#gacdfd5a9363d143f95d486421ab9cf224',1,'updateEnemiesAndExplosions():&#160;enemy.c'],['../group__enemy.html#gacdfd5a9363d143f95d486421ab9cf224',1,'updateEnemiesAndExplosions():&#160;enemy.c']]],
+  ['updateenemyexplosionsprite_3',['updateEnemyExplosionSprite',['../group__enemy_explosion.html#gae1a155dc36209a3f4d3c7bcef17f4a4f',1,'updateEnemyExplosionSprite(EnemyExplosion *explosion):&#160;enemyExplosion.c'],['../group__enemy_explosion.html#gae1a155dc36209a3f4d3c7bcef17f4a4f',1,'updateEnemyExplosionSprite(EnemyExplosion *sprite):&#160;enemyExplosion.c']]],
+  ['updateplayerscore_4',['updatePlayerScore',['../group__playership.html#ga23fef7f7a04159faea033c1595b2e220',1,'updatePlayerScore(PlayerShip *playership):&#160;playerShip.c'],['../group__playership.html#ga23fef7f7a04159faea033c1595b2e220',1,'updatePlayerScore(PlayerShip *playership):&#160;playerShip.c']]],
+  ['updatespaceshipexplosions_5',['updateSpaceshipExplosions',['../group__playership.html#ga64b2336642e027984d01f3defaf843d0',1,'updateSpaceshipExplosions():&#160;playerShip.c'],['../group__playership.html#ga64b2336642e027984d01f3defaf843d0',1,'updateSpaceshipExplosions():&#160;playerShip.c']]],
+  ['updatespaceshipexplosionsprite_6',['updateSpaceshipExplosionSprite',['../group__spaceship__explosion.html#ga372dd335ab834d86a84732dc6c4c2acf',1,'updateSpaceshipExplosionSprite(Spaceship_Explosion *explosion):&#160;spaceship_explosion.c'],['../group__spaceship__explosion.html#ga372dd335ab834d86a84732dc6c4c2acf',1,'updateSpaceshipExplosionSprite(Spaceship_Explosion *explosion):&#160;spaceship_explosion.c']]]
+];

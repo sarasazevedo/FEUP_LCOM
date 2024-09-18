@@ -1,0 +1,5 @@
+<map id="kbc_write_input" name="kbc_write_input">
+<area shape="rect" id="Node000001" title="Writes to KBC&#39;s input buffers (port 0x64 or 0x60) when not full." alt="" coords="5,5,117,32"/>
+<area shape="rect" id="Node000002" href="$group___k_b_c.html#gabaa6e25516d3e426a0b8fd1bb4bc7ed5" title="Reads KBC&#39;s STAT_REG to get the status byte." alt="" coords="165,5,275,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,16,149,16,149,21,117,21"/>
+</map>

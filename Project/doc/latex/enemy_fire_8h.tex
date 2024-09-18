@@ -1,0 +1,70 @@
+\doxysection{enemy\+Fire.\+h File Reference}
+\hypertarget{enemy_fire_8h}{}\label{enemy_fire_8h}\index{enemyFire.h@{enemyFire.h}}
+
+
+Module for handling enemy fire in the game.  
+
+
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include "{}sprites/proj\+Pixmap.\+h"{}}\newline
+{\ttfamily \#include "{}sprites/sprite.\+h"{}}\newline
+{\ttfamily \#include "{}devices/videocard.\+h"{}}\newline
+{\ttfamily \#include "{}enemy.\+h"{}}\newline
+{\ttfamily \#include "{}player\+Ship.\+h"{}}\newline
+{\ttfamily \#include "{}game.\+h"{}}\newline
+Include dependency graph for enemy\+Fire.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{enemy_fire_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{enemy_fire_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_enemy_fire}{Enemy\+Fire}}
+\begin{DoxyCompactList}\small\item\em Structure representing an enemy fire shot in the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{enemy_fire_8h_a21489ce1ee8aa757a77f53c76af417f1}{MAX\+\_\+\+ENEMY\+\_\+\+FIRE}}~60
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_enemy_fire}{Enemy\+Fire}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__enemy_fire_gacc7ca61d8c0f9e2ea3806b964183dbf0}{create\+Enemy\+Fire}} (xpm\+\_\+map\+\_\+t sprite, uint16\+\_\+t x, uint16\+\_\+t y, uint16\+\_\+t speed)
+\begin{DoxyCompactList}\small\item\em Creates a new enemy fire projectile. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__enemy_fire_ga3ccad590a49217abfd1fdef46072c84b}{draw\+Enemy\+Fire}} (\mbox{\hyperlink{struct_enemy_fire}{Enemy\+Fire}} \texorpdfstring{$\ast$}{*}enemy\+Fire)
+\begin{DoxyCompactList}\small\item\em Draws the enemy fire shot on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__enemy_fire_gadba556403e4605612f9b0df4f5a3a441}{create\+Enemies\+Fire}} (\mbox{\hyperlink{struct_enemy}{Enemy}} \texorpdfstring{$\ast$}{*}enemy)
+\begin{DoxyCompactList}\small\item\em Creates enemy fire shots. \end{DoxyCompactList}\item 
+void {\bfseries move\+Enemy\+Fire} ()
+\begin{DoxyCompactList}\small\item\em Updates the enemy fire shot position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__enemy_fire_ga4927b9c0966206fb3b73c3eaedbaf5d5}{check\+Space\+Ship\+Hit}} (\mbox{\hyperlink{struct_player_ship}{Player\+Ship}} \texorpdfstring{$\ast$}{*}player\+Ship, \mbox{\hyperlink{struct_enemy_fire}{Enemy\+Fire}} \texorpdfstring{$\ast$}{*}enemy\+Fire)
+\begin{DoxyCompactList}\small\item\em Checks if the player ship has been hit by an enemy fire shot. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__enemy_fire_ga2bd371f5e353c2364871ac0d3d7df7bc}{destroy\+Enemy\+Fire}} (\mbox{\hyperlink{struct_enemy_fire}{Enemy\+Fire}} \texorpdfstring{$\ast$}{*}enemy\+Fire)
+\begin{DoxyCompactList}\small\item\em Destroys the enemy fire shot and frees its memory space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Module for handling enemy fire in the game. 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{enemy_fire_8h_a21489ce1ee8aa757a77f53c76af417f1}\label{enemy_fire_8h_a21489ce1ee8aa757a77f53c76af417f1} 
+\index{enemyFire.h@{enemyFire.h}!MAX\_ENEMY\_FIRE@{MAX\_ENEMY\_FIRE}}
+\index{MAX\_ENEMY\_FIRE@{MAX\_ENEMY\_FIRE}!enemyFire.h@{enemyFire.h}}
+\doxysubsubsection{\texorpdfstring{MAX\_ENEMY\_FIRE}{MAX\_ENEMY\_FIRE}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+ENEMY\+\_\+\+FIRE~60}
+
+Max quantity of enemy fire shots available per frame 

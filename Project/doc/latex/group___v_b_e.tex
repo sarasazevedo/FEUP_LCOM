@@ -1,0 +1,51 @@
+\doxysection{VBE}
+\hypertarget{group___v_b_e}{}\label{group___v_b_e}\index{VBE@{VBE}}
+
+
+Constants for programming the Videocard.  
+
+
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{group___v_b_e_ga8bcfa01e132dd971c7d213d1746081a3}\label{group___v_b_e_ga8bcfa01e132dd971c7d213d1746081a3} 
+\#define {\bfseries INT\+\_\+\+VIDEO\+\_\+\+SERVICES}~0x10   /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Interrupt number used by the BIOS\textquotesingle{} video services \texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_gad34f2c0bbe3b2c024cd908089012c773}\label{group___v_b_e_gad34f2c0bbe3b2c024cd908089012c773} 
+\#define {\bfseries AH\+\_\+\+VBE\+\_\+\+FUNCTION}~0x4f    /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Functions AH \texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_ga969a981778b44a9ed065a784e2a5e5f8}\label{group___v_b_e_ga969a981778b44a9ed065a784e2a5e5f8} 
+\#define {\bfseries AH\+\_\+\+BIOS\+\_\+\+FUNCTION}~0x00   /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief BIOS Set Video Mode AH \texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_gaae57d04a7b0d18c1e7d4955a9e2f3cb0}\label{group___v_b_e_gaae57d04a7b0d18c1e7d4955a9e2f3cb0} 
+\#define {\bfseries AL\+\_\+\+SET\+\_\+\+VBE\+\_\+\+MODE}~0x02    /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set VBE Mode function AL\texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_gacb682dbd8e39bf849cc035090358d8f7}\label{group___v_b_e_gacb682dbd8e39bf849cc035090358d8f7} 
+\#define {\bfseries SET\+\_\+\+DISPLAY\+\_\+\+START\+\_\+\+CONTROL}~0x07 /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set Display Start Control function AL\texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_gafd9e0d2db8d09eef35bb490bea46af43}\label{group___v_b_e_gafd9e0d2db8d09eef35bb490bea46af43} 
+\#define {\bfseries VBE\+\_\+\+SET\+\_\+\+START\+\_\+\+VERTICAL\+\_\+\+RETRACE}~0x80 /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set Display Start during Vertical Retrace \texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_gad059e18af006c553d27aa80f9d22aadd}\label{group___v_b_e_gad059e18af006c553d27aa80f9d22aadd} 
+\#define {\bfseries INDEXED\+\_\+\+SUBMODE}~0x105  /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 1024x768 screen resolution and Indexed color mode\texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_ga26662843e21c1aac07b1dcc4c432298f}\label{group___v_b_e_ga26662843e21c1aac07b1dcc4c432298f} 
+\#define {\bfseries SUBMODE\+\_\+110}~0x110      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 640x480 screen resolution and Direct color mode with 15 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_gad2d2755827bd32981b4976a9ae8e405e}\label{group___v_b_e_gad2d2755827bd32981b4976a9ae8e405e} 
+\#define {\bfseries SUBMODE\+\_\+115}~0x115      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 800x600 screen resolution and Direct color mode with 24 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_ga4168b6495565dd2e4e303afe06d42b65}\label{group___v_b_e_ga4168b6495565dd2e4e303afe06d42b65} 
+\#define {\bfseries SUBMODE\+\_\+11A}~0x11A      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 1280x1024 screen resolution and Direct color mode with 16 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_ga74c00c36b9e9b0eda04b681767d35b4a}\label{group___v_b_e_ga74c00c36b9e9b0eda04b681767d35b4a} 
+\#define {\bfseries SUBMODE\+\_\+14C}~0x14C      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 1152x864 screen resolution and Direct color mode with 32 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\Hypertarget{group___v_b_e_ga3fbd0d6e74a9d432fa1749470d2c63cb}\label{group___v_b_e_ga3fbd0d6e74a9d432fa1749470d2c63cb} 
+\#define {\bfseries LINEAR\+\_\+\+MEMORY}~BIT(14)  /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set to have Linear Frame Buffer Model \texorpdfstring{$\ast$}{*}/
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Constants for programming the Videocard. 
+

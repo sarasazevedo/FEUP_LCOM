@@ -1,0 +1,32 @@
+\doxysection{cursor.\+h}
+\hypertarget{cursor_8h_source}{}\label{cursor_8h_source}\index{cursor.h@{cursor.h}}
+\mbox{\hyperlink{cursor_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ \_LCOM\_CURSOR\_H\_}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ \_LCOM\_CURSOR\_H\_}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}sprites/projPixmap.h"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{sprite_8h}{sprites/sprite.h}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{videocard_8h}{devices/videocard.h}}"{}}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00028\ \ \ uint16\_t\ \mbox{\hyperlink{struct_cursor_ae73fe43be998c2ae077810bd9cafd8ac}{x}};\ }
+\DoxyCodeLine{00029\ \ \ uint16\_t\ \mbox{\hyperlink{struct_cursor_acf7cce0dd780b66bfbfdb99130b6ee2c}{y}};\ }
+\DoxyCodeLine{00030\ \ \ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\ \mbox{\hyperlink{struct_cursor_a78614cc0fd1596efa6aa2e02d67b138c}{curr\_sprite}};\ }
+\DoxyCodeLine{00032\ \}\ \mbox{\hyperlink{struct_cursor}{Cursor}};}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00043\ \mbox{\hyperlink{struct_cursor}{Cursor}}*\ \mbox{\hyperlink{group__cursor_ga962b65dff016ac07d7a2717635c65d29}{createCursor}}(xpm\_map\_t\ sprite,\ uint16\_t\ x,\ uint16\_t\ y);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00050\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__cursor_ga8284595468388b00a8af9c0392ddeac5}{drawCursor}}(\mbox{\hyperlink{struct_cursor}{Cursor}}*\ cursor);}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00059\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__cursor_ga2c3cd97520ea04d170ada92b91f479c9}{updateCursor}}(\mbox{\hyperlink{struct_cursor}{Cursor}}*\ cursor,\ uint16\_t\ x,\ uint16\_t\ y);}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00066\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__cursor_gad510a9ebcbf765461cba72ab75b0e314}{destroyCursor}}(\mbox{\hyperlink{struct_cursor}{Cursor}}*\ cursor);}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00070\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_LCOM\_CURSOR\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

@@ -1,0 +1,71 @@
+\doxysection{RTC.\+h}
+\hypertarget{_r_t_c_8h_source}{}\label{_r_t_c_8h_source}\index{RTC.h@{RTC.h}}
+\mbox{\hyperlink{_r_t_c_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ \_RTC\_H\_}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ \_RTC\_H\_}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{comment}{/*\ Ports\ */}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ RTC\_ADDR\_REG\_PORT\ 0x70}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#define\ RTC\_DATA\_REG\_PORT\ 0x71}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#define\ RTC\_IRQ\_LINE\ 8}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{comment}{/*\ One-\/byte\ registers\ */}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#define\ SECONDS\ 0\ \ \ }\textcolor{comment}{//0-\/59}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#define\ MINUTES\ 2\ \ \ }\textcolor{comment}{//0-\/59}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#define\ HOURS\ 4\ \ \ \ \ }\textcolor{comment}{//0-\/24}}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ WEEKDAY\ 6\ \ \ }\textcolor{comment}{//1-\/7,\ Sunday=1}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#define\ MONTHDAY\ 7\ \ }\textcolor{comment}{//1-\/31}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#define\ MONTH\ 8\ \ \ \ \ }\textcolor{comment}{//1-\/12}}
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#define\ YEAR\ 9\ \ \ \ \ \ }\textcolor{comment}{//0-\/99}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#define\ SECONDS\_ALARM\ 1}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#define\ MINUTES\_ALARM\ 3}}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#define\ HOURS\_ALARM\ 5}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#define\ REGISTER\_A\ 10}}
+\DoxyCodeLine{00031\ \textcolor{preprocessor}{\#define\ REGISTER\_B\ 11}}
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#define\ REGISTER\_C\ 12}}
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#define\ REGISTER\_D\ 13}}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00045\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00046\ \ \ \ \ uint8\_t\ seconds;}
+\DoxyCodeLine{00047\ \ \ \ \ uint8\_t\ minutes;}
+\DoxyCodeLine{00048\ \ \ \ \ uint8\_t\ hours;}
+\DoxyCodeLine{00049\ \}\ \mbox{\hyperlink{structtime_type}{timeType}};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00055\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00056\ \ \ \ \ uint8\_t\ weekday;}
+\DoxyCodeLine{00057\ \ \ \ \ uint8\_t\ monthday;}
+\DoxyCodeLine{00058\ \ \ \ \ uint8\_t\ month;}
+\DoxyCodeLine{00059\ \ \ \ \ uint8\_t\ year;}
+\DoxyCodeLine{00060\ \}\ \mbox{\hyperlink{structdate_type}{dateType}};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00071\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group___r_t_c_ga355937233ac514ae89a6f6f450aba176}{rtc\_read\_byte}}(uint8\_t\ address,\ uint8\_t\ *\textcolor{keywordtype}{byte});}
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00078\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group___r_t_c_ga1c7900b102529826ac1662355e6cf058}{rtc\_update\_date}}();}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00085\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group___r_t_c_gae22bdeb51eb630e1d579dfc1cd1b2f11}{rtc\_update\_time}}();}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00096\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group___r_t_c_ga88fc5fd4c2b5250b8228e39fd1083538}{get\_binary}}(uint8\_t\ \textcolor{keywordtype}{byte},\ uint8\_t\ *binary);}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00105\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group___r_t_c_ga087b53362974d78d9672fe26deb8aa88}{rtc\_subscribe\_int}}(uint8\_t\ *irq\_set\_mask);}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00112\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group___r_t_c_gab8f17bf5280c908c8b199a90fefcc758}{rtc\_unsubscribe\_int}}();}
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00118\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{group___r_t_c_ga57f7116af216e3779ad9d6e98351d329}{rtc\_ih}}();}
+\DoxyCodeLine{00119\ }
+\DoxyCodeLine{00123\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_RTC\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

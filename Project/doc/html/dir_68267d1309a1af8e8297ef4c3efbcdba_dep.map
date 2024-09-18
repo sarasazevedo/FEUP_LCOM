@@ -1,0 +1,20 @@
+<map id="src" name="src">
+<area shape="rect" id="node2" href="dir_6fac9273c1f4413d2ee63ba6cd0b0eb2.html" title="devices" alt="" coords="27,251,91,277"/>
+<area shape="poly" id="edge1" href="dir_000003_000000.html" alt="" coords="90,54,65,74,44,102,35,137,35,173,42,207,50,235,45,237,37,208,30,173,30,136,39,100,61,71,87,50"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000003_000000.html" title="10" alt="" coords="48,222,62,238"/>
+<area shape="rect" id="node3" href="dir_93fba7f4351df9ee018fb5cbb17c6742.html" title="gameElements" alt="" coords="54,101,162,128"/>
+<area shape="poly" id="edge2" href="dir_000003_000001.html" alt="" coords="111,53,111,86,105,86,105,53"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000003_000001.html" title="15" alt="" coords="109,75,123,91"/>
+<area shape="rect" id="node4" href="dir_ab1f59485a986c2b15b77f5b461afb35.html" title="sprites" alt="" coords="82,176,142,203"/>
+<area shape="poly" id="edge3" href="dir_000003_000002.html" alt="" coords="129,50,155,71,177,100,180,120,173,138,161,155,146,169,142,165,157,151,169,136,175,119,172,102,151,74,126,54"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000003_000002.html" title="9" alt="" coords="148,163,155,179"/>
+<area shape="poly" id="edge4" href="dir_000001_000000.html" alt="" coords="100,130,85,151,72,177,65,207,62,235,56,235,59,206,67,175,80,148,95,127"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000001_000000.html" title="4" alt="" coords="64,225,71,241"/>
+<area shape="poly" id="edge5" href="dir_000001_000002.html" alt="" coords="104,129,104,161,99,161,99,129"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000001_000002.html" title="8" alt="" coords="106,148,113,164"/>
+<area shape="poly" id="edge6" href="dir_000002_000000.html" alt="" coords="105,205,79,240,75,237,101,202"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000002_000000.html" title="2" alt="" coords="82,233,89,249"/>
+<area shape="poly" id="edge7" href="dir_000002_000001.html" alt="" coords="116,176,116,143,121,143,121,176"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000002_000001.html" title="7" alt="" coords="107,140,114,156"/>
+<area shape="rect" id="clust1" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" alt="" coords="16,16,200,288"/>
+</map>

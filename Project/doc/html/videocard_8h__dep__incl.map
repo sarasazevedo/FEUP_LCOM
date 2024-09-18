@@ -1,0 +1,22 @@
+<map id="videocard.h" name="videocard.h">
+<area shape="rect" id="Node000001" title="Variables to store information about the videocard&#39;s current graphics submode and associated frame&#45;bu..." alt="" coords="110,5,196,32"/>
+<area shape="rect" id="Node000002" href="$cursor_8h.html" title="Module for handling cursor in the game." alt="" coords="83,80,151,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,47,125,81,120,78,137,45"/>
+<area shape="rect" id="Node000003" href="$fire_8h.html" title="Module for handling player fire shots in the game." alt="" coords="5,155,55,181"/>
+<area shape="poly" id="edge12_Node000001_Node000003" title=" " alt="" coords="118,43,94,60,72,82,49,120,36,155,31,153,44,118,68,78,90,56,115,38"/>
+<area shape="rect" id="Node000004" href="$game_8h.html" title="Module for handling game loop." alt="" coords="111,304,176,331"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="161,47,166,80,167,146,163,211,149,304,143,303,157,211,162,146,161,80,156,48"/>
+<area shape="rect" id="Node000005" href="$enemy_fire_8h.html" title="Module for handling enemy fire in the game." alt="" coords="146,379,239,405"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="181,41,202,65,224,95,241,129,247,166,247,244,242,284,230,323,203,379,198,377,225,321,237,283,242,244,242,167,236,131,220,97,198,68,177,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,119,47,156,43,152,88,115"/>
+<area shape="poly" id="edge9_Node000002_Node000004" title=" " alt="" coords="123,122,144,303,139,304,117,122"/>
+<area shape="rect" id="Node000007" href="$menu_8h.html" title="Module for handling game menus and time display." alt="" coords="42,229,106,256"/>
+<area shape="poly" id="edge10_Node000002_Node000007" title=" " alt="" coords="111,123,80,230,75,228,106,121"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="26,196,24,226,27,241,32,255,48,273,68,288,112,306,109,311,65,292,44,277,28,257,21,242,19,226,20,196"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="48,193,69,228,64,230,43,196"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="155,343,179,377,175,380,150,346"/>
+<area shape="rect" id="Node000006" href="$proj_8c.html" title="Project main loop." alt="" coords="69,379,122,405"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="129,345,106,380,101,377,124,342"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="182,367,157,333,161,330,186,363"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="98,265,133,302,129,305,94,269"/>
+</map>

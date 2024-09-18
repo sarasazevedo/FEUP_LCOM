@@ -1,0 +1,51 @@
+\doxysection{enemy.\+h}
+\hypertarget{enemy_8h_source}{}\label{enemy_8h_source}\index{enemy.h@{enemy.h}}
+\mbox{\hyperlink{enemy_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ \_LCOM\_ENEMY\_H\_}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ \_LCOM\_ENEMY\_H\_}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <lcom/lcf.h>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}sprites/projPixmap.h"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{sprite_8h}{sprites/sprite.h}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{enemy_explosion_8h}{enemyExplosion.h}}"{}}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#define\ MAX\_MOVEMENT\ 190\ }}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#define\ ENEMY\_FIRE\_RATE\ 5\ }}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#define\ ENEMY\_POINTS\ 5\ }}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#define\ ENEMY\_SPEED\ 1\ }}
+\DoxyCodeLine{00033\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00034\ \ \ \mbox{\hyperlink{group__enemy_gga224b9163917ac32fc95a60d8c1eec3aaadb45120aafd37a973140edee24708065}{LEFT}},\ }
+\DoxyCodeLine{00035\ \ \ \mbox{\hyperlink{group__enemy_gga224b9163917ac32fc95a60d8c1eec3aaaec8379af7490bb9eaaf579cf17876f38}{RIGHT}},\ }
+\DoxyCodeLine{00036\ \}\ \mbox{\hyperlink{group__enemy_ga224b9163917ac32fc95a60d8c1eec3aa}{Direction}};}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00043\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\{}
+\DoxyCodeLine{00044\ \ \ uint16\_t\ \mbox{\hyperlink{struct_enemy_a71aa469403f28b0821081fd676ceda69}{x}};\ }
+\DoxyCodeLine{00045\ \ \ uint16\_t\ \mbox{\hyperlink{struct_enemy_acc7dd473d1c3777f5232143d8939c46c}{y}};\ }
+\DoxyCodeLine{00046\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_enemy_a26c34811424e665a6c2efb9100cae0d8}{alive}};\ }
+\DoxyCodeLine{00047\ \ \ \mbox{\hyperlink{struct_sprite}{Sprite}}**\ \mbox{\hyperlink{struct_enemy_a8d71237a347451d49c8cde502e463e13}{sprites}};\ }
+\DoxyCodeLine{00048\ \ \ \mbox{\hyperlink{struct_sprite}{Sprite}}\ *\ \mbox{\hyperlink{struct_enemy_ae9d69dabfa0c5bad7df4df5be8707a25}{curr\_sprite}};\ \ }
+\DoxyCodeLine{00049\ \ \ uint32\_t\ \mbox{\hyperlink{struct_enemy_ae7ea9f12344cd8b841f1f637900cd377}{sprite\_quant}};\ \ }
+\DoxyCodeLine{00050\ \ \ uint32\_t\ \mbox{\hyperlink{struct_enemy_a0a503d0888a0c7f107193f40c56a47cd}{curr\_sprite\_no}};\ }
+\DoxyCodeLine{00051\ \ \ \mbox{\hyperlink{group__enemy_ga224b9163917ac32fc95a60d8c1eec3aa}{Direction}}\ \mbox{\hyperlink{struct_enemy_a7c52f26b7de302092a7fea48496916a7}{direction}};\ }
+\DoxyCodeLine{00052\ \}\ \mbox{\hyperlink{struct_enemy}{Enemy}};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00063\ \mbox{\hyperlink{struct_enemy}{Enemy}}*\ \mbox{\hyperlink{group__enemy_ga8a78606530bcf77847dc538a8d72690a}{createEnemy}}(xpm\_map\_t\ sprite1,\ xpm\_map\_t\ sprite2,\ uint16\_t\ x,\ uint16\_t\ y);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00069\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__enemy_ga3ddf780af4ebe779cb010c9d9f94cc7c}{drawCurrEnemySprite}}(\mbox{\hyperlink{struct_enemy}{Enemy}}*\ sprite);}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00075\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__enemy_gade21f14f9d1e80dd3e6c893fb9fc61b2}{destroyEnemy}}(\mbox{\hyperlink{struct_enemy}{Enemy}}*\ enemy);}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00080\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__enemy_ga790afa6b23ed5d2e5ac81dbe7352b564}{setEnemiesInitialPos}}();}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00085\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group__enemy_gacdfd5a9363d143f95d486421ab9cf224}{updateEnemiesAndExplosions}}();}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00089\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_LCOM\_ENEMY\_H\_\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ }
+
+\end{DoxyCode}

@@ -1,0 +1,54 @@
+\doxysection{VBE.\+h File Reference}
+\hypertarget{_v_b_e_8h}{}\label{_v_b_e_8h}\index{VBE.h@{VBE.h}}
+
+
+Constants for programming the Videocard.  
+
+
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+Include dependency graph for VBE.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=138pt]{_v_b_e_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{_v_b_e_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries INT\+\_\+\+VIDEO\+\_\+\+SERVICES}~0x10   /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Interrupt number used by the BIOS\textquotesingle{} video services \texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries AH\+\_\+\+VBE\+\_\+\+FUNCTION}~0x4f    /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Functions AH \texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries AH\+\_\+\+BIOS\+\_\+\+FUNCTION}~0x00   /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief BIOS Set Video Mode AH \texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries AL\+\_\+\+SET\+\_\+\+VBE\+\_\+\+MODE}~0x02    /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set VBE Mode function AL\texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries SET\+\_\+\+DISPLAY\+\_\+\+START\+\_\+\+CONTROL}~0x07 /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set Display Start Control function AL\texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries VBE\+\_\+\+SET\+\_\+\+START\+\_\+\+VERTICAL\+\_\+\+RETRACE}~0x80 /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set Display Start during Vertical Retrace \texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries INDEXED\+\_\+\+SUBMODE}~0x105  /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 1024x768 screen resolution and Indexed color mode\texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries SUBMODE\+\_\+110}~0x110      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 640x480 screen resolution and Direct color mode with 15 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries SUBMODE\+\_\+115}~0x115      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 800x600 screen resolution and Direct color mode with 24 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries SUBMODE\+\_\+11A}~0x11A      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 1280x1024 screen resolution and Direct color mode with 16 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries SUBMODE\+\_\+14C}~0x14C      /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief VBE Mode with 1152x864 screen resolution and Direct color mode with 32 bits per pixel\texorpdfstring{$\ast$}{*}/
+\item 
+\#define {\bfseries LINEAR\+\_\+\+MEMORY}~BIT(14)  /\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} @brief Set to have Linear Frame Buffer Model \texorpdfstring{$\ast$}{*}/
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Constants for programming the Videocard. 
+

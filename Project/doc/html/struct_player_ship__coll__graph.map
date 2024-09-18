@@ -1,0 +1,8 @@
+<map id="PlayerShip" name="PlayerShip">
+<area shape="rect" id="Node000001" title="Struct representing the player spaceship." alt="" coords="5,203,90,229"/>
+<area shape="rect" id="Node000002" href="$struct_sprite.html" title="Structure representing a sprite." alt="" coords="20,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,48,42,91,41,139,48,202,43,203,36,139,36,90,41,47"/>
+<area shape="rect" id="Node000003" href="$struct_spaceship___explosion.html" title="Structure representing a player spaceship explosion." alt="" coords="116,112,262,139"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="78,39,173,109,170,114,75,43"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,150,69,204,66,200,154,145"/>
+</map>

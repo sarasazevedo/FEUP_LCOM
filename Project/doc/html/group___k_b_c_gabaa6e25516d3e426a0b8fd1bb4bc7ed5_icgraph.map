@@ -1,0 +1,41 @@
+<map id="kbc_get_status" name="kbc_get_status">
+<area shape="rect" id="Node000001" title="Reads KBC&#39;s STAT_REG to get the status byte." alt="" coords="921,80,1031,107"/>
+<area shape="rect" id="Node000002" href="$group___k_b_c.html#ga1bb84818fda416e607a221b4e58defca" title="Reads OUT_BUF when full, verifies data validity and if it comes from the wanted device." alt="" coords="771,43,864,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="905,79,863,69,865,64,907,74"/>
+<area shape="rect" id="Node000009" href="$group___k_b_c.html#ga4bbd3043c99b06f25e525951cfde5a20" title="Writes to KBC&#39;s input buffers (port 0x64 or 0x60) when not full." alt="" coords="762,105,873,132"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="906,107,874,112,873,107,905,102"/>
+<area shape="rect" id="Node000003" href="$group___k_b_c.html#ga9749e9f99375c10a1b7b1f70d1621785" title="Sends KBC command to read Command Byte and reads it from OUT_BUF." alt="" coords="601,80,700,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="757,72,700,85,699,80,756,67"/>
+<area shape="rect" id="Node000006" href="$group__keyboard.html#gab9e6ed7960d60aa4834f2038247d4536" title="Reads a byte coming from the keyboard and tries to build a scancode." alt="" coords="208,83,268,109"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="756,56,579,56,471,61,362,71,313,79,269,90,268,85,312,74,362,65,470,55,579,51,756,51"/>
+<area shape="rect" id="Node000008" href="$group__mouse.html#ga834b6d7efe311484d6da234db333cb97" title="Reads a byte and tries to build a mouse packet." alt="" coords="199,5,277,32"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="766,40,713,27,589,14,465,10,357,13,277,18,277,13,357,8,465,5,589,8,714,21,767,35"/>
+<area shape="rect" id="Node000004" href="$group__keyboard.html#ga17fe28e87f3247b3f13589a285b05885" title="Configure KBC to disable interrupts on OBF from Keyboard." alt="" coords="377,80,524,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="586,96,525,96,525,91,586,91"/>
+<area shape="rect" id="Node000005" href="$group__keyboard.html#gadfab4dca3e7b5ac340210f54f599896f" title="Configure KBC to enable interrupts on OBF from Keyboard." alt="" coords="379,131,523,157"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="587,112,507,133,506,127,586,107"/>
+<area shape="rect" id="Node000007" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="5,160,114,187"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="195,117,93,162,91,157,193,112"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="203,43,163,73,113,120,75,161,71,158,109,116,160,69,200,39"/>
+<area shape="poly" id="edge13_Node000009_Node000003" title=" " alt="" coords="746,111,700,103,701,98,747,105"/>
+<area shape="rect" id="Node000010" href="$group___k_b_c.html#ga90f69bf6e63dc7f3a348db65ba7a6a28" title="Sends KBC command to write Command Byte and writes one." alt="" coords="600,131,701,157"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="747,132,702,139,701,134,746,127"/>
+<area shape="rect" id="Node000011" href="$group__mouse.html#ga8e0e1ba2004a8fc0d0bbec5b631ff700" title="Sends Mouse Command Byte to the Mouse." alt="" coords="587,232,714,259"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="788,144,671,234,668,229,785,139"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="584,130,506,110,507,105,585,125"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="584,147,523,147,523,141,584,141"/>
+<area shape="rect" id="Node000012" href="$group__mouse.html#gac13ad81d843b4d50815de4b20a28db53" title="Disable data reporting (in Stream Mode)" alt="" coords="381,283,521,325"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="589,266,522,286,520,281,587,261"/>
+<area shape="rect" id="Node000014" href="$group__mouse.html#ga108813d01ba189cc8bb0dca728c932a8" title="Enable data reporting (in Stream Mode)" alt="" coords="362,349,539,376"/>
+<area shape="poly" id="edge18_Node000011_Node000014" title=" " alt="" coords="628,272,589,307,541,340,514,351,511,346,538,335,586,303,624,268"/>
+<area shape="rect" id="Node000016" href="$group__mouse.html#gad9af204f34377e145a404c74a50cfbdb" title="Set Mouse to operate in Remote Mode." alt="" coords="365,181,536,208"/>
+<area shape="poly" id="edge21_Node000011_Node000016" title=" " alt="" coords="579,230,506,211,507,206,581,225"/>
+<area shape="rect" id="Node000017" href="$group__mouse.html#ga16a521d1919cbd8f434d8b5d535a639b" title="Set Mouse to operate in Stream Mode." alt="" coords="365,232,536,259"/>
+<area shape="poly" id="edge22_Node000011_Node000017" title=" " alt="" coords="572,248,537,248,537,243,572,243"/>
+<area shape="rect" id="Node000013" href="$proj_8c.html#a39ca4da537e3c0062ada871f99b91b8d" title="Unsubscribes all the needed device&#39;s interrupts." alt="" coords="162,185,314,212"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="369,278,360,273,336,251,313,230,281,215,284,210,315,226,340,247,364,268,372,273"/>
+<area shape="poly" id="edge17_Node000013_Node000007" title=" " alt="" coords="146,188,113,184,114,178,147,183"/>
+<area shape="rect" id="Node000015" href="$proj_8c.html#ab570339ba658dea7f08a99b9374e605f" title="Subscribes all the needed device&#39;s interrupts." alt="" coords="169,240,307,267"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="376,346,361,340,300,304,254,269,257,265,303,300,363,335,378,341"/>
+<area shape="poly" id="edge20_Node000015_Node000007" title=" " alt="" coords="184,236,161,226,85,190,88,185,163,222,186,231"/>
+</map>

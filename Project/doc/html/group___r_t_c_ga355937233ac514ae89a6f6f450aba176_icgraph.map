@@ -1,0 +1,30 @@
+<map id="rtc_read_byte" name="rtc_read_byte">
+<area shape="rect" id="Node000001" title="Reads a byte from a RTC register, after informing the address of the desidered register." alt="" coords="944,101,1045,128"/>
+<area shape="rect" id="Node000002" href="$group___r_t_c.html#ga88fc5fd4c2b5250b8228e39fd1083538" title="Converts a byte from BCD form into binary. If it is already in binary, doesn&#39;t change it." alt="" coords="815,101,896,128"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="929,117,897,117,897,112,929,112"/>
+<area shape="rect" id="Node000003" href="$group___r_t_c.html#ga1c7900b102529826ac1662355e6cf058" title="Update the current day date by reading RTC registers." alt="" coords="653,71,767,97"/>
+<area shape="poly" id="edge17_Node000001_Node000003" title=" " alt="" coords="934,100,896,92,829,86,767,85,767,80,830,81,897,87,935,94"/>
+<area shape="rect" id="Node000010" href="$group___r_t_c.html#gae22bdeb51eb630e1d579dfc1cd1b2f11" title="Update the current day time by reading RTC registers." alt="" coords="653,133,767,160"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="934,135,897,143,830,149,767,151,767,145,829,144,896,137,933,130"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="799,106,767,99,768,93,800,100"/>
+<area shape="poly" id="edge13_Node000002_Node000010" title=" " alt="" coords="800,130,768,137,767,132,799,124"/>
+<area shape="rect" id="Node000004" href="$group__menu.html#ga4f3d01370e91e93f6b4fe1f9d8201e9f" title="Draws the current time on the screen." alt="" coords="524,71,605,97"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="637,87,605,87,605,81,637,81"/>
+<area shape="rect" id="Node000007" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="5,83,114,109"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="653,68,570,44,476,25,387,14,317,8,248,14,163,36,116,58,79,84,76,80,113,54,161,31,247,9,317,3,388,8,477,20,572,39,655,63"/>
+<area shape="rect" id="Node000009" href="$group___r_t_c.html#ga57f7116af216e3779ad9d6e98351d329" title="Updates the current date and time of the day upon receiving a RTC interrupt." alt="" coords="538,133,591,160"/>
+<area shape="poly" id="edge11_Node000003_Node000009" title=" " alt="" coords="664,107,593,138,591,133,662,102"/>
+<area shape="rect" id="Node000005" href="$group__game.html#ga8e846fdc79393705f939c88ba9e9bb31" title="Draws the end screen when the game is over." alt="" coords="354,57,476,84"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="508,82,477,79,477,74,509,76"/>
+<area shape="poly" id="edge9_Node000004_Node000007" title=" " alt="" coords="525,66,476,48,424,40,371,38,267,47,174,65,103,85,101,80,172,60,266,42,371,33,425,35,477,43,527,61"/>
+<area shape="rect" id="Node000008" href="$group__menu.html#ga56a31ac38f07280573662926cc1046b0" title="Draws the specified menu." alt="" coords="372,108,459,135"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="510,100,460,113,458,108,509,95"/>
+<area shape="rect" id="Node000006" href="$group__game.html#ga1ac9703965178958ecd2dafa9d64cbaf" title="Displays the current screen based on the game state." alt="" coords="162,83,306,109"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="339,84,306,89,306,83,338,79"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="146,99,114,99,114,93,146,93"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="356,116,306,109,307,104,356,111"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="523,151,444,152,354,149,257,141,161,124,111,113,112,107,162,119,258,135,354,144,444,147,522,146"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="662,129,596,100,598,95,664,124"/>
+<area shape="poly" id="edge15_Node000010_Node000007" title=" " alt="" coords="648,167,605,175,500,182,382,181,265,171,161,151,117,133,80,112,83,108,119,128,162,146,266,166,382,176,499,177,604,169,647,162"/>
+<area shape="poly" id="edge16_Node000010_Node000009" title=" " alt="" coords="637,149,592,149,592,144,637,144"/>
+</map>

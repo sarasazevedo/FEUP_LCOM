@@ -1,0 +1,11 @@
+<map id="init_level" name="init_level">
+<area shape="rect" id="Node000001" title="Initializes a level based on the level index." alt="" coords="5,56,76,83"/>
+<area shape="rect" id="Node000002" href="$group__game.html#ga6be2f294a4d060a7a6e445016a151100" title="Resets the game to its initial state." alt="" coords="131,31,221,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,60,115,53,116,58,76,65"/>
+<area shape="rect" id="Node000005" href="$group__game.html#ga6f601bb2ce86080b74029196be067b07" title="Spawns an enemy at a random position." alt="" coords="124,81,228,108"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="76,73,109,79,108,85,75,78"/>
+<area shape="rect" id="Node000003" href="$group__sprite.html#ga9477a23aef14a41eaae372f9548568a8" title="Sets the x&#45;coordinate of a sprite." alt="" coords="276,5,368,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="221,34,261,27,261,32,222,39"/>
+<area shape="rect" id="Node000004" href="$group__sprite.html#gaf0882ac4534aad2d4c5d7246ef4eecfb" title="Sets the y&#45;coordinate of a sprite." alt="" coords="276,56,368,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="222,49,261,56,261,61,221,54"/>
+</map>

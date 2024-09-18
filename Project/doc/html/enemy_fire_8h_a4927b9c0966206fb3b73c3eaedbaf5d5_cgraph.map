@@ -1,0 +1,5 @@
+<map id="checkSpaceShipHit" name="checkSpaceShipHit">
+<area shape="rect" id="Node000001" title="Checks if the player ship has been hit by an enemy fire shot." alt="" coords="5,5,141,32"/>
+<area shape="rect" id="Node000002" href="$group__playership.html#ga71183cdc81fd9f000bc13240d1f7652c" title="Creates a spaceship explosion effect." alt="" coords="189,5,362,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,16,173,16,173,21,141,21"/>
+</map>

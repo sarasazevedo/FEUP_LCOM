@@ -1,0 +1,43 @@
+\doxysection{keyboard.\+h File Reference}
+\hypertarget{keyboard_8h}{}\label{keyboard_8h}\index{keyboard.h@{keyboard.h}}
+
+
+Functions for using the Keyboard.  
+
+
+{\ttfamily \#include $<$lcom/lcf.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include "{}KBC.\+h"{}}\newline
+Include dependency graph for keyboard.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{keyboard_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{keyboard_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{group__keyboard_gac13a06b6553fa672d527f3ef576b8cd6}{keyboard\+\_\+subscribe\+\_\+int}} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}irq\+\_\+set\+\_\+mask)
+\begin{DoxyCompactList}\small\item\em Subscribes Keyboard interrupts and disables default IH. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__keyboard_gac95aea27a5e91b363b876fed881f368f}{keyboard\+\_\+unsubscribe\+\_\+int}} ()
+\begin{DoxyCompactList}\small\item\em Unsubscribes Keyboard interrupts. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__keyboard_gadfab4dca3e7b5ac340210f54f599896f}{keyboard\+\_\+int\+\_\+enabler}} ()
+\begin{DoxyCompactList}\small\item\em Configure KBC to enable interrupts on OBF from Keyboard. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__keyboard_ga17fe28e87f3247b3f13589a285b05885}{keyboard\+\_\+int\+\_\+disabler}} ()
+\begin{DoxyCompactList}\small\item\em Configure KBC to disable interrupts on OBF from Keyboard. \end{DoxyCompactList}\item 
+void {\bfseries kbc\+\_\+ih} ()
+\begin{DoxyCompactList}\small\item\em Reads a byte coming from the keyboard and tries to build a scancode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Functions for using the Keyboard. 
+

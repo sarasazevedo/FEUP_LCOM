@@ -1,0 +1,18 @@
+<map id="check_errors" name="check_errors">
+<area shape="rect" id="Node000001" title="Checks for existing errors on the control register status." alt="" coords="487,81,584,108"/>
+<area shape="rect" id="Node000002" href="$group___k_b_c.html#ga1bb84818fda416e607a221b4e58defca" title="Reads OUT_BUF when full, verifies data validity and if it comes from the wanted device." alt="" coords="347,81,439,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="472,97,440,97,440,92,472,92"/>
+<area shape="rect" id="Node000003" href="$group___k_b_c.html#ga9749e9f99375c10a1b7b1f70d1621785" title="Sends KBC command to read Command Byte and reads it from OUT_BUF." alt="" coords="201,31,299,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,78,289,60,291,55,340,73"/>
+<area shape="rect" id="Node000006" href="$group__keyboard.html#gab9e6ed7960d60aa4834f2038247d4536" title="Reads a byte coming from the keyboard and tries to build a scancode." alt="" coords="220,81,280,108"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="331,97,280,97,280,92,331,92"/>
+<area shape="rect" id="Node000008" href="$group__mouse.html#ga834b6d7efe311484d6da234db333cb97" title="Reads a byte and tries to build a mouse packet." alt="" coords="211,132,289,159"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="340,116,290,134,288,129,338,111"/>
+<area shape="rect" id="Node000004" href="$group__keyboard.html#ga17fe28e87f3247b3f13589a285b05885" title="Configure KBC to disable interrupts on OBF from Keyboard." alt="" coords="5,5,153,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="185,37,153,32,153,27,186,32"/>
+<area shape="rect" id="Node000005" href="$group__keyboard.html#gadfab4dca3e7b5ac340210f54f599896f" title="Configure KBC to enable interrupts on OBF from Keyboard." alt="" coords="7,56,151,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="186,56,152,61,151,56,185,51"/>
+<area shape="rect" id="Node000007" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="25,119,133,145"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="205,107,134,123,133,118,204,102"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="195,144,133,139,133,134,196,138"/>
+</map>
