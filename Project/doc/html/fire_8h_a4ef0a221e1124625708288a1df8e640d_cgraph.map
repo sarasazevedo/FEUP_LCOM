@@ -1,5 +1,0 @@
-<map id="drawFire" name="drawFire">
-<area shape="rect" id="Node000001" title="Draws the player fire shot on the screen." alt="" coords="5,5,76,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#ga858c1454a817fd7dca9e21bafa491242" title="Draws a sprite on the screen." alt="" coords="124,5,211,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,16,108,16,108,21,76,21"/>
-</map>

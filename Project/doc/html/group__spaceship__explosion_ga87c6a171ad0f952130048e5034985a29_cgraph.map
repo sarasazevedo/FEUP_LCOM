@@ -1,5 +1,0 @@
-<map id="destroySpaceshipExplosion" name="destroySpaceshipExplosion">
-<area shape="rect" id="Node000001" title="Destroys the spaceship explosion and frees its memory space." alt="" coords="5,5,188,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#ga607cfeb4f019a84c346eb3bce9da0420" title="Destroys a sprite, freeing its resources." alt="" coords="236,5,339,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
-</map>

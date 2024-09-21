@@ -1,7 +1,0 @@
-<map id="kbc_configure" name="kbc_configure">
-<area shape="rect" id="Node000001" title="Sends KBC command to write Command Byte and writes one." alt="" coords="5,5,107,32"/>
-<area shape="rect" id="Node000002" href="$group___k_b_c.html#ga4bbd3043c99b06f25e525951cfde5a20" title="Writes to KBC&#39;s input buffers (port 0x64 or 0x60) when not full." alt="" coords="155,5,266,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,16,139,16,139,21,107,21"/>
-<area shape="rect" id="Node000003" href="$group___k_b_c.html#gabaa6e25516d3e426a0b8fd1bb4bc7ed5" title="Reads KBC&#39;s STAT_REG to get the status byte." alt="" coords="314,5,424,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="266,16,298,16,298,21,266,21"/>
-</map>

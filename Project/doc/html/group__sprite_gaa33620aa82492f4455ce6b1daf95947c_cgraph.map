@@ -1,5 +1,0 @@
-<map id="draw_sprite_with_angle" name="draw_sprite_with_angle">
-<area shape="rect" id="Node000001" title="Draws a sprite on the screen with a specified angle." alt="" coords="5,5,161,32"/>
-<area shape="rect" id="Node000002" href="$group__videocard.html#ga980ca443d7468fd7daeab10fce386ee9" title="Paints pixel (x,y) with the specified color by copying the color&#39;s bytes to the pixel&#39;s memory area." alt="" coords="209,5,276,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,16,193,16,193,21,161,21"/>
-</map>

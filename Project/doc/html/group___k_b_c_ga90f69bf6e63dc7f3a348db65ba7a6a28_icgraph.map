@@ -1,7 +1,0 @@
-<map id="kbc_configure" name="kbc_configure">
-<area shape="rect" id="Node000001" title="Sends KBC command to write Command Byte and writes one." alt="" coords="201,31,302,57"/>
-<area shape="rect" id="Node000002" href="$group__keyboard.html#ga17fe28e87f3247b3f13589a285b05885" title="Configure KBC to disable interrupts on OBF from Keyboard." alt="" coords="5,5,153,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,37,153,32,154,27,186,32"/>
-<area shape="rect" id="Node000003" href="$group__keyboard.html#gadfab4dca3e7b5ac340210f54f599896f" title="Configure KBC to enable interrupts on OBF from Keyboard." alt="" coords="7,56,151,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,56,152,61,151,56,184,51"/>
-</map>

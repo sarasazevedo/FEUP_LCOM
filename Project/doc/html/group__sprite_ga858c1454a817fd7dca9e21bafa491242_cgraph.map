@@ -1,5 +1,0 @@
-<map id="draw_sprite" name="draw_sprite">
-<area shape="rect" id="Node000001" title="Draws a sprite on the screen." alt="" coords="5,5,93,32"/>
-<area shape="rect" id="Node000002" href="$group__videocard.html#ga980ca443d7468fd7daeab10fce386ee9" title="Paints pixel (x,y) with the specified color by copying the color&#39;s bytes to the pixel&#39;s memory area." alt="" coords="141,5,208,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,16,125,16,125,21,93,21"/>
-</map>

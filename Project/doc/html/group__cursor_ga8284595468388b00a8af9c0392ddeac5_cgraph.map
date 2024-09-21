@@ -1,7 +1,0 @@
-<map id="drawCursor" name="drawCursor">
-<area shape="rect" id="Node000001" title="Draws the cursor on the screen." alt="" coords="5,5,92,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#ga858c1454a817fd7dca9e21bafa491242" title="Draws a sprite on the screen." alt="" coords="140,5,227,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,16,124,16,124,21,92,21"/>
-<area shape="rect" id="Node000003" href="$group__videocard.html#ga980ca443d7468fd7daeab10fce386ee9" title="Paints pixel (x,y) with the specified color by copying the color&#39;s bytes to the pixel&#39;s memory area." alt="" coords="275,5,342,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,16,259,16,259,21,228,21"/>
-</map>

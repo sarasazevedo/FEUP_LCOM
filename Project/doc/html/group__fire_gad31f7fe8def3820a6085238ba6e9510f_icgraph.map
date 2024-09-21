@@ -1,7 +1,0 @@
-<map id="createFire" name="createFire">
-<area shape="rect" id="Node000001" title="Creates a new player fire projectile." alt="" coords="324,5,403,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#ga5347e85e2c2ea95aa825425bb336f148" title="Initializes all the needed sprites for the game." alt="" coords="162,5,276,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="308,21,277,21,277,16,308,16"/>
-<area shape="rect" id="Node000003" href="$proj_8c.html#a7a72220d8366dd84709e79ce415862e5" title="Initializes the game and needed devices and handles interrupts." alt="" coords="5,5,114,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,21,114,21,114,16,146,16"/>
-</map>

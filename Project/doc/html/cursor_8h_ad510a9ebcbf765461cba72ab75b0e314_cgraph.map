@@ -1,5 +1,0 @@
-<map id="destroyCursor" name="destroyCursor">
-<area shape="rect" id="Node000001" title="Destroys the cursor and frees its memory space." alt="" coords="5,5,108,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#ga607cfeb4f019a84c346eb3bce9da0420" title="Destroys a sprite, freeing its resources." alt="" coords="156,5,259,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,16,140,16,140,21,108,21"/>
-</map>

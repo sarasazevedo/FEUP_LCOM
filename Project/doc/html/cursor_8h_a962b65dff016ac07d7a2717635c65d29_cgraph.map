@@ -1,5 +1,0 @@
-<map id="createCursor" name="createCursor">
-<area shape="rect" id="Node000001" title="Creates a new cursor." alt="" coords="5,5,101,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#gae3b5269417e670468bb6c271d18db07f" title="Creates a new sprite with the given parameters." alt="" coords="149,5,245,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,16,133,16,133,21,101,21"/>
-</map>

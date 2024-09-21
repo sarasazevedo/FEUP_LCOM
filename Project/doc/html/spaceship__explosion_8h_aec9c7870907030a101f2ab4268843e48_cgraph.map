@@ -1,5 +1,0 @@
-<map id="createExplosion" name="createExplosion">
-<area shape="rect" id="Node000001" title="Creates a spaceship explosion object." alt="" coords="5,5,120,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#gae3b5269417e670468bb6c271d18db07f" title="Creates a new sprite with the given parameters." alt="" coords="168,5,264,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,16,152,16,152,21,120,21"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="drawCurrExplosionSprite" name="drawCurrExplosionSprite">
-<area shape="rect" id="Node000001" title="Draws the current sprite of the spaceship explosion." alt="" coords="5,5,169,32"/>
-<area shape="rect" id="Node000002" href="$group__sprite.html#ga858c1454a817fd7dca9e21bafa491242" title="Draws a sprite on the screen." alt="" coords="217,5,304,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,16,201,16,201,21,169,21"/>
-<area shape="rect" id="Node000003" href="$group__videocard.html#ga980ca443d7468fd7daeab10fce386ee9" title="Paints pixel (x,y) with the specified color by copying the color&#39;s bytes to the pixel&#39;s memory area." alt="" coords="352,5,419,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,16,336,16,336,21,305,21"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="rtc_update_date" name="rtc_update_date">
-<area shape="rect" id="Node000001" title="Update the current day date by reading RTC registers." alt="" coords="5,31,120,57"/>
-<area shape="rect" id="Node000002" href="$group___r_t_c.html#ga88fc5fd4c2b5250b8228e39fd1083538" title="Converts a byte from BCD form into binary. If it is already in binary, doesn&#39;t change it." alt="" coords="168,5,249,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,31,152,26,153,31,120,37"/>
-<area shape="rect" id="Node000003" href="$group___r_t_c.html#ga355937233ac514ae89a6f6f450aba176" title="Reads a byte from a RTC register, after informing the address of the desidered register." alt="" coords="297,31,397,57"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="120,41,281,41,281,47,120,47"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,23,282,29,281,35,249,29"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="timer_set_frequency" name="timer_set_frequency">
-<area shape="rect" id="Node000001" title="Sets the frequency of the specified timer." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="Node000002" href="$group__timer.html#gafafc1891c876602d55b894103b1841a7" title="Gets the configuration of the specified timer." alt="" coords="192,5,298,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,16,176,16,176,21,144,21"/>
-</map>
