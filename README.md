@@ -1,5 +1,10 @@
 # Computer Laboratory
-Exercises and project of the UC Computer Laboratory. LEIC, Year 2, Semester 2.
+Exercises and project of the UC Computer Laboratory. 
+
+# Project "Agalag" 
+The project is a replica of the arcade game Galaga.
+
+
 Done by:
 - João Sousa
 - Mariana Azevedo
