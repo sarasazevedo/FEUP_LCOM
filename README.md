@@ -1,5 +1,5 @@
 # Computer Laboratory
-Exercises and project of the UC Computer Laboratory. 
+Exercises and project of the UC. 
 
 # Project "Agalag" 
 The project is a replica of the arcade game Galaga.
